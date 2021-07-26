@@ -29,17 +29,17 @@ function Projects() {
         </div>
         <div className="right-side expand-projects-right">
           <div className="projects-container">
-            <div>
+            <div className="upper-projects">
               <img src="https://i.imgur.com/aEvdtnr.png" className="hikeme" />
             </div>
-            <div>
+            <div className="upper-projects">
               <img src="https://i.imgur.com/2iQisOd.png" className="bopit" />
             </div>
-            <div>
+            <div className="lower-projects">
               <img src="https://i.imgur.com/SHjFwmO.png" className="recipes" />
             </div>
-            <div>
-              <img src="https://i.imgur.com/X35dbUA.png" className="recipes" />
+            <div className="lower-projects">
+              <img src="https://i.imgur.com/X35dbUA.png" className="barber" />
             </div>
           </div>
         </div>
