@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap');
 
 body {
   margin: 0;
@@ -14,7 +15,7 @@ body {
   align-items: center;
   flex-direction: column;
   background: none;
-  background-color: rgb(49, 65, 64);
+  background-color: rgba(241, 255, 86, 255);
 }
 
 .right-side {
@@ -40,8 +41,7 @@ body {
     align-items: center;
     width: 50%;
     height: 100vh;
-    background-color: rgb(42, 35, 59);
-    box-shadow: none;
+    background-color: rgba(241, 255, 86, 255);
     position: relative;
   }
 
@@ -123,7 +123,7 @@ body {
     height: 100vh;
     width: 5%;
     background: none;
-    background-color: rgb(42, 35, 59);
+    background-color: rgba(241, 255, 86, 255);
     box-shadow: none;
     position: relative;
     animation: slideout;
@@ -150,7 +150,7 @@ body {
     height: 100vh;
     width: 95%;
     background: none;
-    background-color: rgb(42, 35, 59);
+    background-color: rgba(241, 255, 86, 255);
     box-shadow: none;
     position: relative;
     animation: slidein;
@@ -190,36 +190,88 @@ body {
     }
   }
 
-  .title {
-    font-family: 'Open Sans', cursive;
-    background-color: rgba(185, 125, 182, 0.664);
-    color: rgb(255, 255, 255);
-    font-size: 1.2em;
+  .title-line1 {
+    font-family: 'STIX Two Math', serif;
+    color: rgba(20, 20, 20, 0.747);
+    font-size: 4em;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    border-radius: 50%;
-    height: 290px;
-    width: 290px;
+    height: fit-content;
+    width: fit-content;
     padding: 0px;
     position: absolute;
-    top: 30vh;
+    top: 20vh;
     left: 50vw;
     right: 50vw;
     transform: translateY(-50%);
     transform: translateX(-50%);
-    animation: title-animation;
-    animation-duration: 4s;
   }
 
-  @keyframes title-animation {
-    from {
+  .title-line1 h1 {
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 0.02em;
+    animation: typing 1.2s steps(15, end);
+  }
+
+  .title-line2 {
+    font-family: 'STIX Two Math', serif;
+    color: rgba(20, 20, 20, 0.747);
+    font-size: 4em;
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+    position: absolute;
+    top: 45vh;
+    left: 50vw;
+    right: 50vw;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+  }
+
+  .title-line2 h1 {
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 0.02em;
+    animation: typing 1.2s 1.2s steps(15, end), delay-appear 1.3s;
+  }
+
+  @keyframes delay-appear {
+    0% {
       opacity: 0;
     }
-
-    to {
+    99% {
+      opacity: 0;
+    }
+    100% {
       opacity: 1;
+    }
+  }
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: grey;
     }
   }
 
@@ -290,7 +342,7 @@ body {
   }
 
   .back-projects:hover {
-    background-color: rgba(5, 5, 5, 0.5);
+    background-color: rgba(245, 247, 101, 0.5);
     cursor: pointer;
     transition: 0.25s;
   }
@@ -311,18 +363,17 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(239, 229, 142);
-    width: 175px;
+    width: 250px;
     height: 100px;
     border-radius: 25px;
-    border: solid 2px;
+    border: solid 3px;
     transition: 0.05s;
   }
 
   .about {
     margin-right: 200px;
     transition: 0.2s;
-    color: white;
+    color: rgba(0, 0, 0, 0.753);
   }
 
   .about:hover {
@@ -331,14 +382,14 @@ body {
   }
 
   .projects {
-    color: rgb(55, 27, 126);
+    color: rgb(36, 36, 36);
     margin-left: 200px;
     transition: 0.2s;
     border: solid 3px;
   }
 
   .projects:hover {
-    background-color: rgba(92, 115, 219, 0.164);
+    background-color: rgba(207, 240, 89, 0.226);
     cursor: pointer;
   }
 

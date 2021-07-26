@@ -36,14 +36,14 @@ function Home() {
       <div className="wrapper">
         <div className="left-side">
           <div className="box about" onClick={handleClickedAbout}>
-            about »
+            about meg »
           </div>
-          <div className="title">
-            <h1>
-              hi, i'm
-              <br />
-              meg.
-            </h1>
+          <div className="title-line1">
+            <h1>Hello,</h1>
+            <br />
+          </div>
+          <div className="title-line2">
+            <h1>salut.</h1>
           </div>
         </div>
         <div className="right-side">
