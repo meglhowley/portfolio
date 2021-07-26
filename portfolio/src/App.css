@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Shrikhand&display=swap');
+
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.left-side {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: none;
+  background-color: rgb(49, 65, 64);
+}
+
+.right-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 50vh;
+  background-color: rgb(221, 250, 250);
+  color: white;
+}
+
+@media screen and (min-width: 1000px) {
+  .wrapper {
+    display: flex;
+    min-height: 100vh;
+  }
+
+  .left-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100vh;
+    background-color: rgb(42, 35, 59);
+    box-shadow: none;
+    position: relative;
+  }
+
+  .right-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    font-size: 1em;
+  }
+
+  .transition1-left {
+    animation: transition1-left;
+    animation-duration: 3s;
+  }
+
+  .transition1-right {
+    animation: transition1-right;
+    animation-duration: 3s;
+  }
+
+  .transition2-left {
+    animation: transition2-left;
+    animation-duration: 3s;
+  }
+
+  .transition2-right {
+    animation: transition2-right;
+    animation-duration: 3s;
+  }
+
+  @keyframes transition1-left {
+    from {
+      width: 5%;
+    }
+
+    to {
+      width: 50%;
+    }
+  }
+
+  @keyframes transition1-right {
+    from {
+      width: 95%;
+    }
+
+    to {
+      width: 50%;
+    }
+  }
+
+  @keyframes transition2-left {
+    from {
+      width: 95%;
+    }
+
+    to {
+      width: 50%;
+    }
+  }
+
+  @keyframes transition2-right {
+    from {
+      width: 5%;
+    }
+
+    to {
+      width: 50%;
+    }
+  }
+
+  .expand-projects-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 5%;
+    background: none;
+    background-color: rgb(42, 35, 59);
+    box-shadow: none;
+    position: relative;
+    animation: slideout;
+    animation-duration: 3s;
+  }
+
+  .expand-projects-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-size: 1em;
+    animation: slidein;
+    animation-duration: 1s;
+  }
+
+  .expand-about-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 95%;
+    background: none;
+    background-color: rgb(42, 35, 59);
+    box-shadow: none;
+    position: relative;
+    animation: slidein;
+    animation-duration: 3s;
+  }
+
+  .expand-about-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    font-size: 1em;
+    animation: slideout;
+    animation-duration: 1s;
+  }
+
+  @keyframes slidein {
+    from {
+      width: 50%;
+    }
+
+    to {
+      width: 95%;
+    }
+  }
+
+  @keyframes slideout {
+    from {
+      width: 50%;
+    }
+
+    to {
+      width: 5%;
+    }
+  }
+
+  .title {
+    font-family: 'Open Sans', cursive;
+    background-color: rgba(185, 125, 182, 0.664);
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 50%;
+    height: 290px;
+    width: 290px;
+    padding: 0px;
+    position: absolute;
+    top: 30vh;
+    left: 50vw;
+    right: 50vw;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+    animation: title-animation;
+    animation-duration: 4s;
+  }
+
+  @keyframes title-animation {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
+  .back-projects {
+    font-family: 'Open Sans', cursive;
+    background-color: rgba(255, 192, 245, 0.623);
+    color: rgb(255, 255, 255);
+    font-size: 0.6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    padding: 0px;
+    position: absolute;
+    top: 42vh;
+    left: 5vw;
+    right: 50vw;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+    animation: slideleft;
+    animation-duration: 3s;
+  }
+
+  .back-about {
+    font-family: 'Open Sans', cursive;
+    background-color: rgba(5, 5, 5, 0.281);
+    color: rgb(255, 255, 255);
+    font-size: 0.6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    padding: 0px;
+    position: absolute;
+    top: 42vh;
+    left: 95vw;
+    right: 50vw;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+    animation: slideright;
+    animation-duration: 3s;
+  }
+
+  @keyframes slideleft {
+    from {
+      left: -40vw;
+    }
+
+    to {
+      left: 5vw;
+    }
+  }
+
+  @keyframes slideright {
+    from {
+      left: 130vw;
+    }
+
+    to {
+      left: 95vw;
+    }
+  }
+
+  .back-projects:hover {
+    background-color: rgba(5, 5, 5, 0.5);
+    cursor: pointer;
+    transition: 0.25s;
+  }
+
+  .back-about:hover {
+    background-color: rgba(5, 5, 5, 0.5);
+    cursor: pointer;
+    transition: 0.25s;
+  }
+
+  h1 {
+    font-size: 2.75em;
+  }
+
+  .box {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(239, 229, 142);
+    width: 175px;
+    height: 100px;
+    border-radius: 25px;
+    border: solid 2px;
+    transition: 0.05s;
+  }
+
+  .about {
+    margin-right: 200px;
+    transition: 0.2s;
+    color: white;
+  }
+
+  .about:hover {
+    background-color: rgba(255, 255, 255, 0.418);
+    cursor: pointer;
+  }
+
+  .projects {
+    color: rgb(55, 27, 126);
+    margin-left: 200px;
+    transition: 0.2s;
+    border: solid 3px;
+  }
+
+  .projects:hover {
+    background-color: rgba(92, 115, 219, 0.164);
+    cursor: pointer;
+  }
+
+  .arrow {
+    font-size: 1.3em;
+    margin-right: 5px;
+  }
+
+  .hikeme,
+  .bopit,
+  .recipes,
+  .barber {
+    width: 600px;
+    height: 300px;
+  }
+
+  .projects-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 90vh;
+    width: 90vw;
+    align-content: center;
+  }
+}
