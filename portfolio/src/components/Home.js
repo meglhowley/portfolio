@@ -43,9 +43,7 @@ function Home() {
             <br />
           </div>
           <div className="title-line2">
-            <h1>
-              hey<span>.</span>
-            </h1>
+            <h1>hey.</h1>
           </div>
         </div>
         <div className="right-side">

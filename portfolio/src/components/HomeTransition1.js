@@ -43,9 +43,7 @@ function HomeTransition1() {
             <br />
           </div>
           <div className="title-line2">
-            <h1>
-              sup<span>.</span>
-            </h1>
+            <h1>sup.</h1>
           </div>
         </div>
         <div className="right-side transition1-right">

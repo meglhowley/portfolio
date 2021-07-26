@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Shrikhand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@500&family=STIX+Two+Math&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@500&family=STIX+Two+Math&family=Staatliches&display=swap');
 
 body {
   margin: 0;
@@ -363,6 +364,11 @@ body {
     font-size: 2.75em;
   }
 
+  .projects-container {
+    font-family: 'Lexend', sans-serif;
+    font-size: 2em;
+  }
+
   .box {
     font-family: 'Lexend', sans-serif;
     font-size: 2em;
@@ -404,12 +410,35 @@ body {
     margin-right: 5px;
   }
 
-  .hikeme,
+  .twenty-trendy,
   .bopit,
-  .recipes,
+  .hikeme,
   .barber {
-    width: 490px;
+    font-family: 'Open Sans', cursive;
+    background-color: white;
+    color: black;
+    width: 490.5px;
     height: 240px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 2px solid rgb(66, 65, 66);
+  }
+
+  .description {
+    font-family: 'Open Sans', cursive;
+    padding-top: 20px;
+    font-size: 0.45em;
+    background-color: white;
+    color: black;
+    width: 490.5px;
+    height: 230px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 2px solid rgb(66, 65, 66);
+  }
+
+  a {
+    margin: 10px;
   }
 
   .projects-container {
@@ -426,22 +455,57 @@ body {
     align-content: center;
   }
 
-  .projects-container div {
-    margin-left: 15px;
-    margin-right: 15px;
+  .upper-projects:hover,
+  .lower-projects:hover {
+    transform: scale(1.06);
+    transition: 300ms ease-in-out;
+    cursor: pointer;
+    background-color: rgb(95, 95, 95);
   }
 
   .upper-projects {
-    animation: upper-proj 2s;
+    border: 2px solid rgb(66, 65, 66);
+    background-color: rgb(66, 65, 66);
+    color: white;
+    font-family: 'Staatliches', cursive;
+    width: 494px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 25px;
+    height: 278px;
+    border: 1.5px solid rgb(236, 234, 234);
+    font-family: 'Staatliches', cursive;
+    animation: upper-proj 1.5s;
+    text-align: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
   }
 
   .lower-projects {
-    animation: lower-proj 2s;
+    border: 2px solid rgb(66, 65, 66);
+    background-color: rgb(66, 65, 66);
+    color: white;
+    font-family: 'Staatliches', cursive;
+    width: 494px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 25px;
+    height: 278px;
+    border: 1.5px solid rgb(236, 234, 234);
+    font-family: 'Staatliches', cursive;
+    animation: upper-proj 1.5s;
+    text-align: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  .lower-projects {
+    animation: lower-proj 1.5s;
   }
 
   @keyframes upper-proj {
     from {
-      margin-top: -100vh;
+      margin-top: -90vh;
     }
 
     to {
@@ -451,7 +515,7 @@ body {
 
   @keyframes lower-proj {
     from {
-      margin-bottom: -100vh;
+      margin-bottom: -90vh;
     }
 
     to {
