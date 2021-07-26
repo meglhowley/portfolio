@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Shrikhand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@500&family=STIX+Two+Math&display=swap');
 
 body {
   margin: 0;
@@ -191,7 +192,7 @@ body {
   }
 
   .title-line1 {
-    font-family: 'STIX Two Math', serif;
+    font-family: 'Lexend', sans-serif;
     color: rgba(20, 20, 20, 0.747);
     font-size: 4em;
     display: flex;
@@ -202,7 +203,7 @@ body {
     width: fit-content;
     padding: 0px;
     position: absolute;
-    top: 20vh;
+    top: 15vh;
     left: 50vw;
     right: 50vw;
     transform: translateY(-50%);
@@ -214,11 +215,11 @@ body {
     white-space: nowrap;
     margin: 0 auto;
     letter-spacing: 0.02em;
-    animation: typing 1.2s steps(15, end);
+    animation: typing 0.9s steps(10, end);
   }
 
   .title-line2 {
-    font-family: 'STIX Two Math', serif;
+    font-family: 'Lexend', sans-serif;
     color: rgba(20, 20, 20, 0.747);
     font-size: 4em;
     display: flex;
@@ -241,7 +242,7 @@ body {
     white-space: nowrap;
     margin: 0 auto;
     letter-spacing: 0.02em;
-    animation: typing 1.2s 1.2s steps(15, end), delay-appear 1.3s;
+    animation: typing 0.9s 0.9s steps(10, end), delay-appear 1s;
   }
 
   @keyframes delay-appear {
@@ -358,7 +359,7 @@ body {
   }
 
   .box {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lexend', sans-serif;
     font-size: 2em;
     display: flex;
     justify-content: center;
@@ -371,7 +372,7 @@ body {
   }
 
   .about {
-    margin-right: 200px;
+    margin-right: 350px;
     transition: 0.2s;
     color: rgba(0, 0, 0, 0.753);
   }
@@ -383,7 +384,7 @@ body {
 
   .projects {
     color: rgb(36, 36, 36);
-    margin-left: 200px;
+    margin-left: 350px;
     transition: 0.2s;
     border: solid 3px;
   }
