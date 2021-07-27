@@ -32,12 +32,15 @@ function Projects() {
   const handleClickedBack = () => {
     dispatch({ type: 'toggleHome' })
   }
+
+  const width = window.innerWidth
+
   if (!state.backClicked) {
     return (
       <div className="wrapper">
         <div className="left-side expand-projects-left"></div>
         <div onClick={handleClickedBack} className="back-projects">
-          <h1>back »</h1>
+          <h1>back {width >= 1000 ? '»' : '↡'}</h1>
         </div>
         <div className="right-side expand-projects-right">
           <div className="projects-container">

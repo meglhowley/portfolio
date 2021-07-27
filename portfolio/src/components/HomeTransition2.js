@@ -29,6 +29,8 @@ function HomeTransition2() {
     dispatch({ type: 'toggleAbout' })
   }
 
+  const width = window.innerWidth
+
   useEffect(() => {}, [])
 
   if (!state.projectsClicked && !state.aboutClicked) {
@@ -36,7 +38,7 @@ function HomeTransition2() {
       <div className="wrapper">
         <div className="left-side transition2-left">
           <div className="box about" onClick={handleClickedAbout}>
-            about »
+            about {width >= 1000 ? '»' : '↡'}
           </div>
           <div className="title-line1">
             <h1>Hello,</h1>
@@ -48,7 +50,7 @@ function HomeTransition2() {
         </div>
         <div className="right-side transition2-right">
           <div className="box projects" onClick={handleClickedProjects}>
-            « projects
+            {width >= 1000 ? '«' : '↟'} projects
           </div>
         </div>
       </div>

@@ -29,6 +29,8 @@ function Home() {
     dispatch({ type: 'toggleAbout' })
   }
 
+  const width = window.innerWidth
+
   useEffect(() => {}, [])
 
   if (!state.projectsClicked && !state.aboutClicked) {
@@ -36,7 +38,7 @@ function Home() {
       <div className="wrapper">
         <div className="left-side">
           <div className="box about" onClick={handleClickedAbout}>
-            about meg »
+            about meg {width >= 1000 ? '»' : '↡'}
           </div>
           <div className="title-line1">
             <h1>Hello,</h1>
@@ -48,7 +50,7 @@ function Home() {
         </div>
         <div className="right-side">
           <div className="box projects" onClick={handleClickedProjects}>
-            « projects
+            {width >= 1000 ? '«' : '↟'} projects
           </div>
         </div>
       </div>

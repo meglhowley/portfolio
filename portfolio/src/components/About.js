@@ -20,6 +20,9 @@ function Projects() {
   const handleClickedBack = () => {
     dispatch({ type: 'toggleHome' })
   }
+
+  const width = window.innerWidth
+
   if (!state.backClicked) {
     return (
       <div className="wrapper">
@@ -43,7 +46,7 @@ function Projects() {
           </div>
         </div>
         <div onClick={handleClickedBack} className="back-about">
-          <h1>« back</h1>
+          <h1>{width >= 1000 ? '«' : '↟'} back</h1>
         </div>
         <div className="right-side expand-about-right"></div>
       </div>
