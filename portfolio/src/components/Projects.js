@@ -172,7 +172,7 @@ function Projects() {
                   </a>
                   <a
                     target="_blank"
-                    href="https://sleepy-bastion-09248.herokuapp.com/"
+                    href="https://infinite-temple-92107.herokuapp.com/"
                   >
                     View App
                   </a>
