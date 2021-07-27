@@ -522,4 +522,33 @@ body {
       margin-bottom: 0;
     }
   }
+
+  .bio-container {
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+    height: 80vh;
+  }
+
+  .me {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+  }
+
+  .biography {
+    text-align: right;
+    font-family: Lexend;
+    font-size: 1.75em;
+    width: 100%;
+    padding-left: 10%;
+  }
+
+  .biography span {
+    font-size: 0.7em;
+  }
+  .biography p {
+    font-size: 0.7em;
+    text-align: right;
+  }
 }
