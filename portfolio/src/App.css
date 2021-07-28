@@ -515,6 +515,107 @@ body {
     font-size: 0.7em;
     text-align: right;
   }
+
+  .biography span {
+    font-size: 0.7em;
+  }
+  .biography p {
+    font-size: 0.7em;
+    text-align: right;
+  }
+
+  .github {
+    width: 61px;
+  }
+  .linkedin {
+    width: 33px;
+  }
+  .email {
+    width: 37px;
+  }
+
+  .socials {
+    display: flex;
+    justify-content: space-evenly;
+    width: 200px;
+    margin-top: 4%;
+  }
+
+  .skills-contact {
+    margin-top: 1%;
+    font-family: lexend;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    margin-top: 10%;
+  }
+
+  .skills-contact div {
+    font-size: 0.8em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    width: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .skills-contact h3 {
+    font-size: 0.95em;
+    margin: 0;
+    width: 100px;
+    background-color: rgba(36, 35, 35, 0.582);
+    color: white;
+    border-radius: 25px;
+  }
+
+  .skills-contact div:hover {
+    background: linear-gradient(
+      rgba(241, 255, 86, 255),
+      rgba(61, 60, 60, 0.055),
+      rgba(241, 255, 86, 255)
+    );
+    color: orange;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  footer {
+    font-family: lexend;
+    border: 1px solid black;
+    padding: 5px;
+  }
+
+  .download-div {
+    float: right;
+    font-size: 0.55em;
+    background-color: rgba(0, 0, 0, 0.603);
+    color: white;
+    border: solid 1.5px black;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+  }
+
+  .download-div:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+
+  .download {
+    width: 22px;
+  }
 }
 
 /* LARGER SCREENS BELOW */
@@ -861,11 +962,11 @@ body {
   .box {
     font-family: 'Lexend', sans-serif;
     font-size: 2em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 250px;
-    height: 100px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
     border-radius: 25px;
     border: solid 3px;
     transition: 0.05s;
@@ -1029,9 +1130,21 @@ body {
     text-align: right;
     font-family: Lexend;
     font-size: 1.75em;
-    width: 100%;
+    width: 30vw;
     height: 50vh;
     padding-left: 10%;
+    animation: bioslidein;
+    animation-duration: 3s;
+  }
+
+  @keyframes bioslidein {
+    from {
+      margin-top: -100vw;
+    }
+
+    to {
+      margin-top: 0vh;
+    }
   }
 
   .biography span {
@@ -1055,7 +1168,7 @@ body {
   .socials {
     display: flex;
     justify-content: space-evenly;
-    width: 17vw;
+    width: 320px;
     margin-top: 4%;
   }
 
@@ -1106,7 +1219,9 @@ body {
   }
 
   footer {
-    margin-top: -4%;
+    font-family: lexend;
+    border: 1px solid black;
+    padding: 5px;
   }
 
   .download-div {
@@ -1128,5 +1243,43 @@ body {
 
   .download {
     width: 22px;
+  }
+
+  .contact-div {
+    font-family: lexend;
+  }
+
+  .contact-div input,
+  textarea {
+    width: 95%;
+    text-align: center;
+    font-family: lexend;
+    margin: 10px;
+  }
+
+  .contact-div textarea {
+    width: 96%;
+    height: 10%;
+    text-align: left;
+    height: 70px;
+  }
+
+  .contact-div button {
+    width: 97%;
+    margin-left: 2%;
+    height: 40px;
+    background-color: rgb(229, 244, 248);
+    border-color: transparent;
+    font-family: lexend;
+    font-size: 1.4em;
+    color: rgb(87, 85, 85);
+  }
+
+  .contact-div button:hover {
+    cursor: pointer;
+  }
+
+  .contact-me:hover {
+    cursor: pointer;
   }
 }

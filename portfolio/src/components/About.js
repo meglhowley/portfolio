@@ -1,14 +1,18 @@
 import React, { useReducer, useEffect } from 'react'
 import HomeTransition2 from './HomeTransition2'
+import { Modal } from 'react-rainbow-components'
 
 const iState = {
-  backClicked: false
+  backClicked: false,
+  modalOpen: false
 }
 
 const reducer = (state, action) => {
   switch (action.type) {
     case 'toggleHome':
       return { backClicked: !state.backClicked }
+    case 'toggleModalOpen':
+      return { modalOpen: !state.modalOpen }
     default:
       return state
   }
@@ -72,17 +76,15 @@ function Projects() {
                 knowledge to everything I build. I will partner with you to
                 create scalable, beautiful code. <br />
               </p>
-              <a href="../uploads/Resume.pdf" target="_blank">
-                {' '}
-                hi{' '}
+              <a href="myresume.pdf" download="MeganHowleyResume">
+                <div className="download-div">
+                  <img
+                    className="download"
+                    src="https://image.flaticon.com/icons/png/512/1091/1091673.png"
+                  />
+                  &nbsp;DOWNLOAD RESUME
+                </div>
               </a>
-              <div className="download-div">
-                <img
-                  className="download"
-                  src="https://image.flaticon.com/icons/png/512/1091/1091673.png"
-                />
-                &nbsp;DOWNLOAD RESUME
-              </div>
             </div>
           </div>
 
@@ -90,48 +92,81 @@ function Projects() {
             <div>
               <h3>languages</h3>
               <ul>
-                <li>HTML</li>
-                <li>CSS</li>
+                <li>HTML5</li>
                 <li>JavaScript</li>
+                <li>ES6</li>
                 <li>Python</li>
               </ul>
             </div>
             <div>
               <h3>front-end</h3>
+              <ul>
+                <li>CSS3</li>
+                <li>DOM</li>
+                <li>React</li>
+                <li>React Hooks</li>
+                <li>React Redux</li>
+                <li>Node.js</li>
+                <li>Express.js</li>
+              </ul>
             </div>
             <div>
-              <h3>back-end</h3>
+              <h3>back-end/ORMs</h3>
+              <ul>
+                <li>MongoDB</li>
+                <li>Mongoose</li>
+                <li>PosGreSQL</li>
+                <li>Sequelize</li>
+                <li>Flask</li>
+                <li>SQLAlchemy</li>
+              </ul>
             </div>
             <div>
               <h3>dev-tools</h3>
+              <ul>
+                <li>Git/Github</li>
+                <li>Heroku</li>
+                <li>CLI Terminal</li>
+                <li>Netlify</li>
+                <li>Inspect Dev Tools</li>
+                <li>React/Redux Dev Tools</li>
+              </ul>
             </div>
           </div>
           <footer>
-            <div className="contact-me">LET'S CREATE. CONTACT ME.</div>{' '}
-            {/* <div className="socials">
-              <div>
-                <img
-                  className="linkedin"
-                  src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png"
-                />
-              </div>
-              <div>
-                <img
-                  className="github"
-                  src="https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo.png"
-                />
-              </div>
-              <div>
-                <img
-                  className="email"
-                  src="https://i.pinimg.com/originals/8f/c3/7b/8fc37b74b608a622588fbaa361485f32.png"
-                />
-              </div>
-            </div> */}
+            <div
+              onClick={() => dispatch({ type: 'toggleModalOpen' })}
+              className="contact-me"
+            >
+              LET'S CREATE- CONTACT ME
+            </div>{' '}
           </footer>
         </div>
         <div onClick={handleClickedBack} className="back-about">
           <h1>{width >= 1000 ? '«' : '↟'} back</h1>
+        </div>
+        <div>
+          <Modal
+            isOpen={state.modalOpen}
+            onRequestClose={() => dispatch({ type: 'toggleModalOpen' })}
+          >
+            <div className="contact-div">
+              <h3>Send A Message Here</h3>
+              <form name="contact" method="POST" data-netlify="true">
+                <input placeholder="YOUR NAME"></input>
+                <br />
+                <input placeholder="YOUR EMAIL"></input>
+                <br />
+                <textarea name="message" placeholder="MESSAGE"></textarea>
+                <br />
+                <button type="submit">SEND</button>
+              </form>
+              <h4>
+                Or you can email me direct at:{' '}
+                <a href="mailto:meglhowley@gmail.com">meglhowley@gmail.com</a>
+              </h4>
+            </div>
+          </Modal>
         </div>
         <div className="right-side expand-about-right"></div>
       </div>
