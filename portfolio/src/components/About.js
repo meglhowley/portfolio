@@ -32,19 +32,60 @@ function Projects() {
               <div>
                 <img className="me" src="https://i.imgur.com/3fWXOMb.jpeg" />
               </div>
+              <div className="socials">
+                <div>
+                  <a
+                    target="_blank"
+                    href="https://www.linkedin.com/in/megan-l-howley-4b568199/"
+                  >
+                    <img
+                      className="linkedin"
+                      src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png"
+                    />
+                  </a>
+                </div>
+                <div>
+                  <a target="_blank" href="https://github.com/meglhowley">
+                    <img
+                      className="github"
+                      src="https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo.png"
+                    />
+                  </a>
+                </div>
+                <div>
+                  <a href="mailto:meglhowley@gmail.com" subject="HTML link">
+                    <img
+                      className="email"
+                      src="https://i.pinimg.com/originals/8f/c3/7b/8fc37b74b608a622588fbaa361485f32.png"
+                    />
+                  </a>
+                </div>
+              </div>
               <br />
             </div>
             <div className="biography">
               <h2>Hey 👋&nbsp;I'm Meg.</h2>
               <p>
                 I am a full stack engineer with a passion for creating projects
-                that emphasize both clean functionality, and mindful design.
-                Financial professional turned coder, I bring 6 years of complex
-                client knowledge to everything I build. I will partner with you
-                to create scalable, beautiful code. <br />
+                that emphasize clean functionality and mindful design. Financial
+                professional turned coder, I bring 6 years of complex client
+                knowledge to everything I build. I will partner with you to
+                create scalable, beautiful code. <br />
               </p>
+              <a href="../uploads/Resume.pdf" target="_blank">
+                {' '}
+                hi{' '}
+              </a>
+              <div className="download-div">
+                <img
+                  className="download"
+                  src="https://image.flaticon.com/icons/png/512/1091/1091673.png"
+                />
+                &nbsp;DOWNLOAD RESUME
+              </div>
             </div>
           </div>
+
           <div className="skills-contact">
             <div>
               <h3>languages</h3>
@@ -66,23 +107,27 @@ function Projects() {
             </div>
           </div>
           <footer>
-            {' '}
-            <div className="socials">
+            <div className="contact-me">LET'S CREATE. CONTACT ME.</div>{' '}
+            {/* <div className="socials">
               <div>
                 <img
                   className="linkedin"
                   src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png"
                 />
+              </div>
+              <div>
                 <img
                   className="github"
                   src="https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo.png"
                 />
+              </div>
+              <div>
                 <img
                   className="email"
                   src="https://i.pinimg.com/originals/8f/c3/7b/8fc37b74b608a622588fbaa361485f32.png"
                 />
               </div>
-            </div>
+            </div> */}
           </footer>
         </div>
         <div onClick={handleClickedBack} className="back-about">

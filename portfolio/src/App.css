@@ -1043,18 +1043,20 @@ body {
   }
 
   .github {
-    width: 70px;
+    width: 61px;
   }
   .linkedin {
-    width: 40px;
+    width: 33px;
   }
   .email {
-    width: 42px;
+    width: 37px;
   }
 
   .socials {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    width: 17vw;
+    margin-top: 4%;
   }
 
   .skills-contact {
@@ -1105,5 +1107,26 @@ body {
 
   footer {
     margin-top: -4%;
+  }
+
+  .download-div {
+    float: right;
+    font-size: 0.55em;
+    background-color: rgba(0, 0, 0, 0.603);
+    color: white;
+    border: solid 1.5px black;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+  }
+
+  .download-div:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+
+  .download {
+    width: 22px;
   }
 }
