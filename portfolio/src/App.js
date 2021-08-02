@@ -1,4 +1,5 @@
 import './App.css'
+import './flickity.css'
 import { Switch, Route } from 'react-router-dom'
 import Home from './components/Home'
 

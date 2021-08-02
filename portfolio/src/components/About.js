@@ -34,7 +34,7 @@ function Projects() {
           <div className="bio-container">
             <div>
               <div>
-                <img className="me" src="https://i.imgur.com/3fWXOMb.jpeg" />
+                <img className="me" src="https://i.imgur.com/W7WcxRu.png" />
               </div>
               <div className="socials">
                 <div>

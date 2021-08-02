@@ -333,11 +333,6 @@ body {
     font-size: 2.75em;
   }
 
-  .projects-container {
-    font-family: 'Lexend', sans-serif;
-    font-size: 2em;
-  }
-
   .box {
     font-family: 'Lexend', sans-serif;
     font-size: 1.3em;
@@ -389,7 +384,7 @@ body {
     background-color: white;
     color: black;
     width: 200px;
-    height: 100px;
+    height: 200px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     border: 2px solid rgb(66, 65, 66);
@@ -432,45 +427,19 @@ body {
     background-color: rgb(95, 95, 95);
   }
 
-  .upper-projects {
-    border: 2px solid rgb(66, 65, 66);
-    background-color: rgb(66, 65, 66);
-    color: white;
-    font-family: 'Staatliches', cursive;
-    margin-left: 25px;
-    margin-right: 25px;
-    border-radius: 25px;
-    border: 1.5px solid rgb(236, 234, 234);
-    font-family: 'Staatliches', cursive;
-    animation: upper-proj 1.5s;
-    text-align: center;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-  }
-
-  .lower-projects {
-    border: 2px solid rgb(66, 65, 66);
-    background-color: rgb(66, 65, 66);
-    color: white;
-    font-family: 'Staatliches', cursive;
-    margin-left: 25px;
-    margin-right: 25px;
-    border-radius: 25px;
-    border: 1.5px solid rgb(236, 234, 234);
-    font-family: 'Staatliches', cursive;
-    animation: upper-proj 1.5s;
-    text-align: center;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-  }
-
-  .lower-projects {
-    animation: lower-proj 1.5s;
-  }
-
-  @keyframes upper-proj {
+  @keyframes upper-proj1 {
     from {
       margin-top: -90vh;
+    }
+
+    to {
+      margin-top: 0;
+    }
+  }
+
+  @keyframes upper-proj2 {
+    from {
+      margin-top: -180vh;
     }
 
     to {
@@ -892,7 +861,7 @@ body {
     transform: translateY(-50%);
     transform: translateX(-50%);
     animation: slideleft;
-    animation-duration: 3s;
+    animation-duration: 4s;
   }
 
   .back-about {
@@ -920,7 +889,7 @@ body {
 
   @keyframes slideleft {
     from {
-      left: -40vw;
+      left: -80vw;
     }
 
     to {
@@ -952,11 +921,6 @@ body {
 
   h1 {
     font-size: 2.75em;
-  }
-
-  .projects-container {
-    font-family: 'Lexend', sans-serif;
-    font-size: 2em;
   }
 
   .box {
@@ -1000,6 +964,43 @@ body {
     margin-right: 5px;
   }
 
+  .project-card {
+    width: 275px;
+    height: 275px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px #ccc;
+  }
+
+  .twenty {
+    background: url('https://i.imgur.com/HLNOBjq.png');
+    background-size: 102%;
+    background-position-x: 9%;
+    background-position-y: 65%;
+  }
+
+  .bop {
+    background: url('https://i.imgur.com/2iQisOd.png');
+    background-size: 240%;
+    background-position-x: 49.5%;
+    background-position-y: 80%;
+  }
+
+  .hike {
+    background: url('https://i.imgur.com/3M7asj7.png');
+    background-size: 170%;
+    background-position-x: 82%;
+    background-position-y: 0%;
+    box-shadow: 0 0 15px rgb(138, 138, 138);
+  }
+
+  .bbb {
+    background: url('https://i.imgur.com/vPPiMs8.png');
+    background-size: 93%;
+    background-position-x: 60%;
+    background-position-y: 50%;
+    box-shadow: 0 0 20px rgb(87, 86, 86);
+  }
+
   .twenty-trendy,
   .bopit,
   .hikeme,
@@ -1007,10 +1008,9 @@ body {
     font-family: 'Open Sans', cursive;
     background-color: white;
     color: black;
-    width: 490.5px;
-    height: 240px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
     border: 2px solid rgb(66, 65, 66);
   }
 
@@ -1031,69 +1031,97 @@ body {
     margin: 10px;
   }
 
+  .description-container {
+    border-radius: 10%;
+    padding-right: 50px;
+    font-family: lexend;
+    font-size: 0.9em;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 40vw;
+    height: 92%;
+    background: linear-gradient(to right, white, rgb(241, 240, 240));
+    background-color: rgb(36, 36, 36);
+    box-shadow: 0 0 15px rgb(235, 233, 233);
+  }
+
+  .description-container h4 {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .view {
+    border: solid 1px black;
+    width: fit-content;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
   .projects-container {
+    font-family: 'Lexend', sans-serif;
+    font-size: 2em;
     display: grid;
     justify-items: center;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    width: 50vw;
-    align-content: center;
+    width: 52vw;
     align-items: center;
-    height: 80%;
+    height: 92%;
     justify-content: center;
     flex-wrap: wrap;
     align-content: center;
   }
 
-  .upper-projects:hover,
-  .lower-projects:hover {
+  .upper-proj1-container:hover,
+  .upper-proj2-container:hover,
+  .lower-proj1-container:hover,
+  .lower-proj2-container:hover {
     transform: scale(1.06);
     transition: 300ms ease-in-out;
     cursor: pointer;
-    background-color: rgb(95, 95, 95);
   }
 
-  .upper-projects {
-    border: 2px solid rgb(66, 65, 66);
-    background-color: rgb(66, 65, 66);
-    color: white;
-    font-family: 'Staatliches', cursive;
-    width: 494px;
-    margin-left: 25px;
-    margin-right: 25px;
-    border-radius: 25px;
-    height: 278px;
-    border: 1.5px solid rgb(236, 234, 234);
-    font-family: 'Staatliches', cursive;
-    animation: upper-proj 1.5s;
+  .upper-proj1-container {
+    font-size: 0.8em;
+    color: black;
+    animation: upper-proj1 1s;
     text-align: center;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
   }
 
-  .lower-projects {
-    border: 2px solid rgb(66, 65, 66);
-    background-color: rgb(66, 65, 66);
-    color: white;
-    font-family: 'Staatliches', cursive;
-    width: 494px;
-    margin-left: 25px;
-    margin-right: 25px;
-    border-radius: 25px;
-    height: 278px;
-    border: 1.5px solid rgb(236, 234, 234);
-    font-family: 'Staatliches', cursive;
-    animation: upper-proj 1.5s;
+  .upper-proj2-container {
+    font-size: 0.8em;
+    color: black;
+    animation: upper-proj2 2s;
     text-align: center;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
   }
 
-  .lower-projects {
-    animation: lower-proj 1.5s;
+  .lower-proj1-container {
+    font-size: 0.8em;
+    color: black;
+    animation: lower-proj1 3s;
+    text-align: center;
   }
 
-  @keyframes upper-proj {
+  .lower-proj2-container {
+    font-size: 0.8em;
+    color: black;
+    animation: lower-proj2 3s;
+    text-align: center;
+  }
+
+  @keyframes upper-proj1 {
     from {
       margin-top: -90vh;
     }
@@ -1103,9 +1131,29 @@ body {
     }
   }
 
-  @keyframes lower-proj {
+  @keyframes upper-proj2 {
     from {
-      margin-bottom: -90vh;
+      margin-top: -135vh;
+    }
+
+    to {
+      margin-top: 0;
+    }
+  }
+
+  @keyframes lower-proj1 {
+    from {
+      margin-bottom: -200vh;
+    }
+
+    to {
+      margin-bottom: 0;
+    }
+  }
+
+  @keyframes lower-proj2 {
+    from {
+      margin-bottom: -500vh;
     }
 
     to {
@@ -1121,9 +1169,8 @@ body {
   }
 
   .me {
-    width: 320px;
-    height: 300px;
-    border-radius: 50%;
+    width: 340px;
+    height: 320px;
   }
 
   .biography {
@@ -1281,5 +1328,17 @@ body {
 
   .contact-me:hover {
     cursor: pointer;
+  }
+
+  .project-pic {
+    width: 520px;
+    height: 250px;
+  }
+
+  .main-bio {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    width: 80%;
   }
 }
