@@ -38,19 +38,20 @@ function HomeTransition2() {
       <div className="wrapper">
         <div className="left-side transition2-left">
           <div className="box about" onClick={handleClickedAbout}>
-            about {width >= 1000 ? '»' : '↡'}
+            a b o u t &nbsp; m e &nbsp; {width >= 1000 ? '»' : '↡'}
           </div>
           <div className="title-line1">
             <h1>Hello,</h1>
             <br />
           </div>
+          <div className="me-pic animate__animated animate__backInDown"></div>
           <div className="title-line2">
             <h1>salut.</h1>
           </div>
         </div>
         <div className="right-side transition2-right">
           <div className="box projects" onClick={handleClickedProjects}>
-            {width >= 1000 ? '«' : '↟'} projects
+            {width >= 1000 ? '«' : '↟'} &nbsp; p r o j e c t s
           </div>
         </div>
       </div>

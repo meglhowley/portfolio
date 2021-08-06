@@ -33,38 +33,6 @@ function Projects() {
         <div className="left-side expand-about-left">
           <div className="bio-container">
             <div>
-              <div>
-                <img className="me" src="https://i.imgur.com/W7WcxRu.png" />
-              </div>
-              <div className="socials">
-                <div>
-                  <a
-                    target="_blank"
-                    href="https://www.linkedin.com/in/megan-l-howley-4b568199/"
-                  >
-                    <img
-                      className="linkedin"
-                      src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png"
-                    />
-                  </a>
-                </div>
-                <div>
-                  <a target="_blank" href="https://github.com/meglhowley">
-                    <img
-                      className="github"
-                      src="https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo.png"
-                    />
-                  </a>
-                </div>
-                <div>
-                  <a href="mailto:meglhowley@gmail.com" subject="HTML link">
-                    <img
-                      className="email"
-                      src="https://i.pinimg.com/originals/8f/c3/7b/8fc37b74b608a622588fbaa361485f32.png"
-                    />
-                  </a>
-                </div>
-              </div>
               <br />
             </div>
             <div className="biography">
@@ -87,60 +55,38 @@ function Projects() {
               </a>
             </div>
           </div>
-
-          <div className="skills-contact">
-            <div>
-              <h3>languages</h3>
-              <ul>
-                <li>HTML5</li>
-                <li>JavaScript</li>
-                <li>ES6</li>
-                <li>Python</li>
-              </ul>
+          {/* <footer>
+            <div className="socials">
+              <div>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/megan-l-howley-4b568199/"
+                >
+                  <img
+                    className="linkedin"
+                    src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png"
+                  />{' '}
+                  <span>LINKEDIN</span>
+                </a>
+              </div>
+              <div>
+                <a target="_blank" href="https://github.com/meglhowley">
+                  <img
+                    className="github"
+                    src="https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo.png"
+                  />
+                </a>
+              </div>
+              <div>
+                <a href="mailto:meglhowley@gmail.com" subject="HTML link">
+                  <img
+                    className="email"
+                    src="https://i.pinimg.com/originals/8f/c3/7b/8fc37b74b608a622588fbaa361485f32.png"
+                  />
+                </a>
+              </div>
             </div>
-            <div>
-              <h3>front-end</h3>
-              <ul>
-                <li>CSS3</li>
-                <li>DOM</li>
-                <li>React</li>
-                <li>React Hooks</li>
-                <li>React Redux</li>
-                <li>Node.js</li>
-                <li>Express.js</li>
-              </ul>
-            </div>
-            <div>
-              <h3>back-end/ORMs</h3>
-              <ul>
-                <li>MongoDB</li>
-                <li>Mongoose</li>
-                <li>PosGreSQL</li>
-                <li>Sequelize</li>
-                <li>Flask</li>
-                <li>SQLAlchemy</li>
-              </ul>
-            </div>
-            <div>
-              <h3>dev-tools</h3>
-              <ul>
-                <li>Git/Github</li>
-                <li>Heroku</li>
-                <li>CLI Terminal</li>
-                <li>Netlify</li>
-                <li>Inspect Dev Tools</li>
-                <li>React/Redux Dev Tools</li>
-              </ul>
-            </div>
-          </div>
-          <footer>
-            <div
-              onClick={() => dispatch({ type: 'toggleModalOpen' })}
-              className="contact-me"
-            >
-              LET'S CREATE- CONTACT ME
-            </div>{' '}
-          </footer>
+          </footer> */}
         </div>
         <div onClick={handleClickedBack} className="back-about">
           <h1>{width >= 1000 ? '«' : '↟'} back</h1>

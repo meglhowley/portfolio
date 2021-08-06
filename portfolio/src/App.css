@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@500&family=STIX+Two+Math&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@500&family=STIX+Two+Math&family=Staatliches&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap');
 body {
   margin: 0;
   overflow: hidden;
@@ -171,7 +171,7 @@ body {
   .title-line1 {
     font-family: 'Lexend', sans-serif;
     color: rgba(20, 20, 20, 0.747);
-    font-size: 2.5em;
+    font-size: 2vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -192,7 +192,7 @@ body {
     white-space: nowrap;
     margin: 0 auto;
     letter-spacing: 0.02em;
-    animation: typing 0.9s steps(10, end);
+    animation: typing 0.1s steps(15, end);
   }
 
   .title-line2 {
@@ -376,20 +376,6 @@ body {
     margin-right: 5px;
   }
 
-  .twenty-trendy,
-  .bopit,
-  .hikeme,
-  .barber {
-    font-family: 'Open Sans', cursive;
-    background-color: white;
-    color: black;
-    width: 200px;
-    height: 200px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    border: 2px solid rgb(66, 65, 66);
-  }
-
   .description {
     font-family: 'Open Sans', cursive;
     padding-top: 20px;
@@ -470,6 +456,7 @@ body {
   }
 
   .biography {
+    background-color: red;
     text-align: right;
     font-family: Lexend;
     font-size: 1em;
@@ -497,27 +484,10 @@ body {
     width: 61px;
   }
   .linkedin {
-    width: 33px;
+    width: 20px;
   }
   .email {
     width: 37px;
-  }
-
-  .socials {
-    display: flex;
-    justify-content: space-evenly;
-    width: 200px;
-    margin-top: 4%;
-  }
-
-  .skills-contact {
-    margin-top: 1%;
-    font-family: lexend;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 30vh;
-    margin-top: 10%;
   }
 
   .skills-contact div {
@@ -560,9 +530,10 @@ body {
   }
 
   footer {
-    font-family: lexend;
+    /* font-family: lexend;
     border: 1px solid black;
     padding: 5px;
+    background-color: rgb(66, 65, 66); */
   }
 
   .download-div {
@@ -755,7 +726,7 @@ body {
   .title-line1 {
     font-family: 'Lexend', sans-serif;
     color: rgba(20, 20, 20, 0.747);
-    font-size: 4em;
+    font-size: 4.4vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -764,8 +735,8 @@ body {
     width: fit-content;
     padding: 0px;
     position: absolute;
-    top: 15vh;
-    left: 50vw;
+    top: 0vh;
+    left: 18vw;
     right: 50vw;
     transform: translateY(-50%);
     transform: translateX(-50%);
@@ -782,7 +753,7 @@ body {
   .title-line2 {
     font-family: 'Lexend', sans-serif;
     color: rgba(20, 20, 20, 0.747);
-    font-size: 4em;
+    font-size: 4.4vw;
     display: flex;
     height: fit-content;
     width: fit-content;
@@ -791,11 +762,23 @@ body {
     text-align: center;
     padding: 0px;
     position: absolute;
-    top: 45vh;
-    left: 50vw;
-    right: 50vw;
+    top: 68vh;
+    left: 82vw;
     transform: translateY(-50%);
     transform: translateX(-50%);
+  }
+
+  .me-pic {
+    position: absolute;
+    background: url('https://i.imgur.com/FARRN3t.png');
+    background-size: 115%;
+    background-position-x: 30%;
+    background-position-y: 50%;
+    height: 18vw;
+    width: 18vw;
+    top: 30vh;
+    left: 41vw;
+    border-radius: 50%;
   }
 
   .title-line2 h1 {
@@ -925,19 +908,22 @@ body {
 
   .box {
     font-family: 'Lexend', sans-serif;
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     padding-left: 35px;
     padding-right: 35px;
     border-radius: 25px;
     border: solid 3px;
     transition: 0.05s;
+    line-height: 4vh;
   }
 
   .about {
-    margin-right: 350px;
+    /* position: absolute; */
+    right: 17vw;
+    top: 72vh;
     transition: 0.2s;
     color: rgba(0, 0, 0, 0.753);
   }
@@ -949,7 +935,9 @@ body {
 
   .projects {
     color: rgb(36, 36, 36);
-    margin-left: 350px;
+    /* position: absolute; */
+    right: 17vw;
+    top: 15vh;
     transition: 0.2s;
     border: solid 3px;
   }
@@ -965,8 +953,8 @@ body {
   }
 
   .project-card {
-    width: 275px;
-    height: 275px;
+    width: 33vh;
+    height: 33vh;
     border-radius: 50%;
     box-shadow: 0 0 15px #ccc;
   }
@@ -987,9 +975,9 @@ body {
 
   .hike {
     background: url('https://i.imgur.com/3M7asj7.png');
-    background-size: 170%;
+    background-size: 171%;
     background-position-x: 82%;
-    background-position-y: 0%;
+    background-position-y: 1%;
     box-shadow: 0 0 15px rgb(138, 138, 138);
   }
 
@@ -999,6 +987,31 @@ body {
     background-position-x: 60%;
     background-position-y: 50%;
     box-shadow: 0 0 20px rgb(87, 86, 86);
+  }
+
+  .recipe {
+    background: url('https://i.imgur.com/BrcmqPl.png');
+    background-size: 145%;
+    background-position-x: 48%;
+    background-position-y: 35%;
+  }
+  .calculator {
+    background: url('https://i.imgur.com/FEqBsOc.png');
+    background-size: 125%;
+    background-position-x: 42%;
+    background-position-y: 5%;
+  }
+  .movies {
+    background: url('https://i.imgur.com/NaFydgI.png');
+    background-size: 110%;
+    background-position-x: 50%;
+    background-position-y: 50%;
+  }
+  .zelda {
+    background: url('https://i.imgur.com/iLHhiN4.png');
+    background-size: 155%;
+    background-position-x: 45%;
+    background-position-y: 55%;
   }
 
   .twenty-trendy,
@@ -1032,18 +1045,28 @@ body {
   }
 
   .description-container {
-    border-radius: 10%;
+    border-radius: 5%;
     padding-right: 50px;
     font-family: lexend;
     font-size: 0.9em;
     display: flex;
     flex-direction: column;
     align-content: center;
-    width: 40vw;
+    width: 45vw;
     height: 92%;
-    background: linear-gradient(to right, white, rgb(241, 240, 240));
-    background-color: rgb(36, 36, 36);
-    box-shadow: 0 0 15px rgb(235, 233, 233);
+    background-color: rgb(252, 252, 252);
+    box-shadow: 0 0 15px rgb(212, 210, 210);
+    animation: opacity-in;
+    animation-duration: 1s;
+  }
+
+  @keyframes opacity-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
   }
 
   .description-container h4 {
@@ -1056,8 +1079,26 @@ body {
   }
 
   .view {
+    margin: 0 auto;
+    font-size: 0.9vw;
+    display: flex;
+    align-items: center;
     border: solid 1px black;
+    color: white;
+    padding: 3px;
     width: fit-content;
+    background-color: rgb(61, 61, 61);
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .view:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    transition: ease-in 100ms;
   }
 
   a {
@@ -1067,24 +1108,28 @@ body {
 
   .projects-container {
     font-family: 'Lexend', sans-serif;
-    font-size: 2em;
+    font-size: 1.75vw;
     display: grid;
     justify-items: center;
+    justify-content: center;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    width: 52vw;
+    width: 50vw;
     align-items: center;
-    height: 92%;
+    height: 100%;
     justify-content: center;
     flex-wrap: wrap;
     align-content: center;
+  }
+
+  .projects-container h3 {
+    margin-bottom: 10px;
   }
 
   .upper-proj1-container:hover,
   .upper-proj2-container:hover,
   .lower-proj1-container:hover,
   .lower-proj2-container:hover {
-    transform: scale(1.06);
+    transform: scale(1.09);
     transition: 300ms ease-in-out;
     cursor: pointer;
   }
@@ -1092,7 +1137,7 @@ body {
   .upper-proj1-container {
     font-size: 0.8em;
     color: black;
-    animation: upper-proj1 1s;
+    /* animation: upper-proj1 1s; */
     text-align: center;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -1101,7 +1146,7 @@ body {
   .upper-proj2-container {
     font-size: 0.8em;
     color: black;
-    animation: upper-proj2 2s;
+    /* animation: upper-proj2 2s; */
     text-align: center;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -1110,14 +1155,14 @@ body {
   .lower-proj1-container {
     font-size: 0.8em;
     color: black;
-    animation: lower-proj1 3s;
+    /* animation: lower-proj1 3s; */
     text-align: center;
   }
 
   .lower-proj2-container {
     font-size: 0.8em;
     color: black;
-    animation: lower-proj2 3s;
+    /* animation: lower-proj2 3s; */
     text-align: center;
   }
 
@@ -1169,17 +1214,16 @@ body {
   }
 
   .me {
-    width: 340px;
-    height: 320px;
+    width: 540px;
+    height: 650px;
   }
 
   .biography {
     text-align: right;
     font-family: Lexend;
     font-size: 1.75em;
-    width: 30vw;
+    width: 60vw;
     height: 50vh;
-    padding-left: 10%;
     animation: bioslidein;
     animation-duration: 3s;
   }
@@ -1206,17 +1250,11 @@ body {
     width: 61px;
   }
   .linkedin {
-    width: 33px;
+    width: 25px;
+    margin-bottom: -5px;
   }
   .email {
     width: 37px;
-  }
-
-  .socials {
-    display: flex;
-    justify-content: space-evenly;
-    width: 320px;
-    margin-top: 4%;
   }
 
   .skills-contact {
@@ -1265,10 +1303,37 @@ body {
     padding: 0;
   }
 
+  .socials {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    color: white;
+  }
+
+  .socials div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 20%;
+    font-size: 1.2em;
+    align-items: center;
+    align-content: center;
+  }
+
   footer {
+    color: white;
+    display: flex;
+    flex-direction: row;
     font-family: lexend;
-    border: 1px solid black;
-    padding: 5px;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: rgba(46, 45, 46, 0.63); */
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 5vh;
   }
 
   .download-div {
@@ -1331,14 +1396,103 @@ body {
   }
 
   .project-pic {
-    width: 520px;
-    height: 250px;
+    width: 58vh;
+    height: 28vh;
   }
 
   .main-bio {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10%;
+    margin-top: 7%;
     width: 80%;
+    text-align: justify;
+    font-size: 1.85vh;
+  }
+
+  .tech-stack {
+    margin-top: 0;
+    font-size: 1.5vh;
+    margin: 0 auto;
+  }
+
+  .back {
+    position: absolute;
+    bottom: 8vh;
+    left: 45vw;
+  }
+
+  .tech-stack div {
+    text-align: center;
+  }
+
+  .view-buttons {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 8%;
+  }
+
+  .code {
+    width: 20px;
+  }
+
+  .app {
+    width: 20px;
+  }
+
+  .back-arrow {
+    width: 15px;
+    height: 20px;
+  }
+
+  .main-project-div {
+    display: flex;
+    align-items: center;
+  }
+
+  .next {
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 2em;
+    /* border: solid 2px grey; */
+    padding-left: 26px;
+    padding-right: 19px;
+    padding-top: 14px;
+    padding-bottom: 9px;
+    border-radius: 50%;
+    color: rgba(83, 82, 82, 0.904);
+    font-family: 'Nanum Myeongjo', serif;
+  }
+
+  .one {
+    padding-left: 19px;
+    padding-right: 26px;
+    padding-top: 14px;
+    padding-bottom: 9px;
+    color: rgb(197, 197, 197);
+  }
+
+  .two:hover {
+    background-color: rgba(236, 236, 236, 0.479);
+    cursor: pointer;
+    transition: ease-in 100ms;
+  }
+
+  .three {
+    padding-left: 19px;
+    padding-right: 26px;
+    padding-top: 14px;
+    padding-bottom: 9px;
+  }
+
+  .three:hover {
+    background-color: rgba(236, 236, 236, 0.479);
+    cursor: pointer;
+  }
+
+  .animate__animated.animate__backInDown {
+    --animate-duration: 2s;
   }
 }
