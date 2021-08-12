@@ -1409,8 +1409,33 @@ body {
     text-align: center;
   }
 
+  .top-half-bio {
+    animation: fade-in-up 2s;
+  }
+
   .bottom-container {
     width: 100%;
+    animation: fade-in-down 3.5s;
+  }
+
+  @keyframes fade-in-down {
+    from {
+      margin-top: -2000%;
+    }
+
+    to {
+      margin-top: 0%;
+    }
+  }
+
+  @keyframes fade-in-up {
+    from {
+      margin-bottom: -500%;
+    }
+
+    to {
+      margin-bottom: 0%;
+    }
   }
 
   .bottom-container h2 {

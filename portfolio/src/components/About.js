@@ -77,7 +77,7 @@ function Projects() {
               </a>
             </div>
           </div>
-          <div className="bio-container">
+          <div className="bio-container animate__animated">
             <div className="top-half-bio">
               <div className="biography">
                 <h2>Hey 👋&nbsp;I'm Meg.</h2>
