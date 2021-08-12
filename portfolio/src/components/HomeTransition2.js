@@ -46,7 +46,7 @@ function HomeTransition2() {
           </div>
           <div className="me-pic animate__animated animate__backInDown"></div>
           <div className="title-line2">
-            <h1>salut.</h1>
+            <h1>sup.</h1>
           </div>
         </div>
         <div className="right-side transition2-right">

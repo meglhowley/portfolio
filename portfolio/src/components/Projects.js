@@ -59,7 +59,7 @@ function Projects() {
       <div className="wrapper">
         <div className="left-side expand-projects-left"></div>
         <div onClick={handleClickedBack} className="back-projects">
-          <h1>back {width >= 1000 ? '»' : '↡'}</h1>
+          <h1>BACK &nbsp;{width >= 1000 ? '»' : '↡'}</h1>
         </div>
         <div className="right-side expand-projects-right">
           {!state.twentyTrendyClicked &&

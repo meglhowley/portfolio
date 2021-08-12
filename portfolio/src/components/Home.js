@@ -46,7 +46,7 @@ function Home() {
           </div>
           <div className="me-pic animate__animated animate__backInDown"></div>
           <div className="title-line2">
-            <h1>salut.</h1>
+            <h1>hey.</h1>
           </div>
         </div>
         <div className="right-side">
