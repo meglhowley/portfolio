@@ -278,7 +278,7 @@ function Projects() {
                     </div>
                     <div class="container animate__animated animate__tada">
                       <i
-                        style={{ fontSize: '6vh' }}
+                        style={{ fontSize: width >= 1000 ? '6vh' : '3.5vh' }}
                         class="devicon-heroku-line-wordmark"
                       ></i>
                       <div class="overlay">
@@ -296,7 +296,7 @@ function Projects() {
                     </div>
                     <div class="container animate__animated animate__tada">
                       <i
-                        style={{ fontSize: '6vh' }}
+                        style={{ fontSize: width >= 1000 ? '6vh' : '3.3vh' }}
                         class="devicon-trello-plain"
                       ></i>
                       <div class="overlay">

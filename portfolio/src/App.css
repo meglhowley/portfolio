@@ -60,7 +60,7 @@ body {
     }
 
     to {
-      height: 50vh;
+      height: 45vh;
     }
   }
 
@@ -70,7 +70,7 @@ body {
     }
 
     to {
-      height: 50vh;
+      height: 45vh;
     }
   }
 
@@ -80,7 +80,7 @@ body {
     }
 
     to {
-      height: 50vh;
+      height: 45vh;
     }
   }
 
@@ -90,7 +90,7 @@ body {
     }
 
     to {
-      height: 50vh;
+      height: 45vh;
     }
   }
 
@@ -352,9 +352,9 @@ body {
 
   .box {
     font-family: 'Lexend', sans-serif;
-    font-size: 3vw;
+    font-size: 4vw;
     text-align: center;
-    width: 30vw;
+    width: 35vw;
     margin: 0 auto;
     padding-top: 1vh;
     padding-bottom: 1vh;
@@ -846,8 +846,8 @@ body {
 
   .skills-sect {
     display: grid;
-    width: 35vw;
-    height: 35vh;
+    width: 95%;
+    height: 15vh;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     justify-items: center;
     align-items: center;
@@ -883,8 +883,8 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 75px;
-    width: 75px;
+    height: 35px;
+    width: 35px;
     opacity: 0;
     transition: 0.5s ease;
     background-color: rgba(0, 0, 0, 0.726);
@@ -898,7 +898,7 @@ body {
     border-top: 1px solid white;
     font-family: lexend;
     color: white;
-    font-size: 0.9em;
+    font-size: 0.4em;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -914,7 +914,7 @@ body {
     width: 70vw;
     display: flex;
     margin-left: 11vw;
-    margin-top: -5vh;
+    margin-top: -13vh;
     justify-content: center;
     flex-direction: column;
   }
@@ -1025,9 +1025,9 @@ body {
     background-color: rgba(0, 0, 0, 0.356);
     border-color: white;
     font-family: lexend;
-    font-size: 1.3em;
-    padding-left: 6px;
-    padding-right: 6px;
+    font-size: 0.75em;
+    padding-left: 3px;
+    padding-right: 3px;
     border-radius: 50%;
     color: white;
   }
