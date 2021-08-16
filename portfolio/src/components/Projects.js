@@ -868,6 +868,85 @@ function Projects() {
               </div>
               <br />
             </div>
+          ) : state.byoAdventureClicked ? (
+            <div className="description-container">
+              <div className="view-buttons">
+                <a
+                  target="_blank"
+                  href="https://github.com/meglhowley/u4_hw_python_adventure"
+                >
+                  <div className="view">
+                    VIEW CODE &nbsp;
+                    <img
+                      className="code"
+                      src="https://i.imgur.com/09DzI81.png"
+                    />
+                  </div>
+                </a>
+              </div>
+              <div>
+                <Flickity>
+                  <img
+                    className="project-pic"
+                    src="https://i.imgur.com/eBQBmxl.png"
+                  />
+                  <img
+                    className="project-pic"
+                    src="https://i.imgur.com/0kZClvc.png"
+                  />
+                  <img
+                    className="project-pic"
+                    src="https://i.imgur.com/TeAiXXi.png"
+                  />
+                  <img
+                    className="project-pic"
+                    src="https://i.imgur.com/0oDMEdg.png"
+                  />
+                </Flickity>
+              </div>
+              <div className="main-bio">
+                A build your own CLI Terminal adventure game inspired by The
+                Legend of Zelda: Ocarina of Time built using Python only.
+                Accepts user input for the direction of the game - including a
+                challenge to recreate Epona's Song to secure a horse, locate and
+                obtain the Master Sword, and battle Gannon to save Hyrule.
+                <br /> <br />
+                To play: 1) Fork and clone Github repository onto your local
+                machine 2) Inside the main directory, run command "python3
+                main.py" 3) Build out Link's destiny!
+              </div>
+              <br />
+              <br />
+              <br />
+              <div className="main-bio tech-stack">
+                <b>
+                  <i>Technologies Used</i>{' '}
+                </b>
+                <div>
+                  <i
+                    style={{ fontSize: '4em' }}
+                    class="devicon-python-plain-wordmark"
+                  ></i>
+                  <i
+                    style={{ fontSize: '4em' }}
+                    class="devicon-vscode-plain-wordmark"
+                  ></i>
+                </div>
+                <br />
+                <br />
+              </div>
+              <div
+                className="view back"
+                onClick={() => dispatch({ type: 'toggleByoAdventureClicked' })}
+              >
+                BACK TO PROJECTS &nbsp;
+                <img
+                  className="back-arrow"
+                  src="https://i.imgur.com/wLEU1iD.png"
+                />
+              </div>
+              <br />
+            </div>
           ) : state.pageTwoClicked ? (
             <div className="main-project-div">
               <div
@@ -904,7 +983,9 @@ function Projects() {
                 <div className="lower-proj2-container">
                   <h3>BYO ADVENTURE</h3>
                   <div
-                    onClick={() => dispatch({ type: 'toggleBBBClicked' })}
+                    onClick={() =>
+                      dispatch({ type: 'toggleByoAdventureClicked' })
+                    }
                     className="project-card zelda"
                   ></div>
                 </div>{' '}

@@ -62,7 +62,7 @@ function Projects() {
               </a>
             </div>
             <div className="social-container">
-              <a href="myresume.pdf" download="MeganHowleyResume">
+              <a href="NewResume.pdf" download="MeganHowleyResume">
                 <img
                   className="download "
                   src="https://i.imgur.com/D7U1DzF.png"
