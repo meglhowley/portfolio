@@ -95,7 +95,7 @@ function Projects() {
                     }}
                   >
                     <img
-                      style={{ width: '5vh', marginBottom: '-8px' }}
+                      style={{ width: '3.75vh', marginBottom: '-8px' }}
                       src="https://image.flaticon.com/icons/png/512/1053/1053367.png"
                     />
                     &nbsp;TECH | SKILLS
@@ -376,7 +376,7 @@ function Projects() {
           </div>
         </div>
         <div onClick={handleClickedBack} className="back-about">
-          <h1> BACK &nbsp;{width >= 1000 ? '«' : '↟'}</h1>
+          <h1> BACK &nbsp;{width >= 1000 ? '«' : '^'}</h1>
         </div>
         <div>
           <Modal
