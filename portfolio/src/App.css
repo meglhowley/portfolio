@@ -914,7 +914,7 @@ body {
     width: 70vw;
     display: flex;
     margin-left: 11vw;
-    margin-top: -13vh;
+    margin-bottom: 0vh;
     justify-content: center;
     flex-direction: column;
   }
@@ -923,8 +923,9 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 95%;
-    height: 50vh;
-    margin-left: 11vw;
+    height: 60vh;
+    margin-left: 17vw;
+    margin-top: -2vh;
     animation: fade-in-down 3.5s;
   }
 
@@ -960,8 +961,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 2vw;
-    width: 100%;
+    font-size: 1.2vh;
+    width: 90%;
     height: 100%;
     font-family: lexend;
   }
@@ -977,7 +978,7 @@ body {
   .bottom-container p {
     width: 80%;
     margin: 0 auto;
-    font-size: 1.8vw;
+    font-size: 1.2vh;
     height: 100%;
     overflow-wrap: break-word;
     text-align: center;
