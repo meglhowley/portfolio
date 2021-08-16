@@ -213,15 +213,14 @@ body {
   }
 
   .me-pic {
-    position: absolute;
     background: url('https://i.imgur.com/FARRN3t.png');
     background-size: 115%;
     background-position-x: 30%;
     background-position-y: 50%;
     height: 25vh;
     width: 25vh;
-    top: 37vh;
-    left: 28vw;
+    margin: 0 auto;
+    margin-bottom: -47vh;
     border-radius: 50%;
   }
 
@@ -363,13 +362,13 @@ body {
     border: solid 2px;
     transition: 0.05s;
     line-height: 4vh;
-    margin-top: 2vh;
   }
 
   .about {
+    margin-top: -7.5vh;
+    margin-bottom: 7.5vh;
     transition: 0.2s;
     color: rgba(0, 0, 0, 0.753);
-    margin-bottom: -5vh;
   }
 
   .about:hover {
@@ -381,7 +380,6 @@ body {
     color: rgb(36, 36, 36);
     transition: 0.2s;
     border: solid 2px;
-    margin-top: -15%;
   }
 
   .projects:hover {
@@ -666,7 +664,7 @@ body {
     width: 100%;
     text-align: center;
     font-family: Lexend;
-    font-size: 2.5vh;
+    font-size: 2.2vh;
   }
 
   .biography span {
@@ -857,7 +855,7 @@ body {
 
   .skills-sect1 {
     font-family: lexend;
-    font-size: 2.5vh;
+    font-size: 1.85vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -866,7 +864,7 @@ body {
   }
 
   .skills-sect1 div {
-    border: solid 2px black;
+    border: solid 1.5px black;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.308);
     color: white;
@@ -911,10 +909,11 @@ body {
 
   .top-half-bio {
     animation: fade-in-up 2s;
-    height: 40vh;
+    height: 35vh;
     width: 70vw;
     display: flex;
     margin-left: 11vw;
+    margin-top: -5vh;
     justify-content: center;
     flex-direction: column;
   }
@@ -990,7 +989,7 @@ body {
     align-items: center;
     text-align: center;
     height: 95%;
-    width: 10vw;
+    width: 12vw;
     color: white;
     position: fixed;
     z-index: 1;
