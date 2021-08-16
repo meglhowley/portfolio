@@ -206,7 +206,7 @@ body {
     text-align: center;
     padding: 0px;
     position: absolute;
-    bottom: 3vh;
+    bottom: 1vh;
     left: 74vw;
     transform: translateY(-50%);
     transform: translateX(-50%);
@@ -218,10 +218,10 @@ body {
     background-size: 115%;
     background-position-x: 30%;
     background-position-y: 50%;
-    height: 50vw;
-    width: 50vw;
-    top: 36vh;
-    left: 25vw;
+    height: 25vh;
+    width: 25vh;
+    top: 37vh;
+    left: 28vw;
     border-radius: 50%;
   }
 
