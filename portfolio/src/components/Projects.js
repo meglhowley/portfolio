@@ -45,7 +45,7 @@ const reducer = (state, action) => {
   }
 }
 
-function Projects() {
+function Projects(props) {
   const [state, dispatch] = useReducer(reducer, iState)
 
   const handleClickedBack = () => {
@@ -57,11 +57,23 @@ function Projects() {
   if (!state.backClicked) {
     return (
       <div className="wrapper">
-        <div className="left-side expand-projects-left"></div>
+        <div
+          className="left-side expand-projects-left"
+          style={{
+            backgroundColor: !props.darkMode
+              ? 'rgba(241, 255, 86, 255)'
+              : 'rgba(0, 0, 0, 0.822)'
+          }}
+        ></div>
         <div onClick={handleClickedBack} className="back-projects">
           <h1>BACK &nbsp;{width >= 800 ? '»' : '↡'}</h1>
         </div>
-        <div className="right-side expand-projects-right">
+        <div
+          className="right-side expand-projects-right"
+          style={{
+            backgroundColor: !props.darkMode ? 'white' : 'rgb(46, 90, 104)'
+          }}
+        >
           {!state.twentyTrendyClicked &&
           !state.hikeMeClicked &&
           !state.bopItClicked &&
@@ -70,7 +82,12 @@ function Projects() {
           !state.pageTwoClicked ? (
             <div className="main-project-div">
               <div className="next one"> &lt; </div>
-              <div className="projects-container">
+              <div
+                className="projects-container"
+                style={{
+                  color: !props.darkMode ? 'black' : 'rgb(202, 202, 202)'
+                }}
+              >
                 <div className="upper-proj1-container">
                   <h3>20TRENDY</h3>
                   <div
@@ -949,7 +966,12 @@ function Projects() {
                 {' '}
                 &lt;{' '}
               </div>
-              <div className="projects-container">
+              <div
+                className="projects-container"
+                style={{
+                  color: !props.darkMode ? 'black' : 'rgb(202, 202, 202)'
+                }}
+              >
                 <div className="upper-proj1-container">
                   <h3>REACT CALCULATOR</h3>
                   <div
@@ -995,7 +1017,7 @@ function Projects() {
       </div>
     )
   } else {
-    return <HomeTransition1 />
+    return <HomeTransition1 darkMode={props.darkMode} />
   }
 }
 export default Projects

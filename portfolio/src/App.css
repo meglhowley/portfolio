@@ -4,6 +4,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@500&family=STIX+Two+Math&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@500&family=STIX+Two+Math&family=Staatliches&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
 body {
   margin: 0;
   overflow: hidden;
@@ -70,7 +72,7 @@ body {
     }
 
     to {
-      height: 45vh;
+      height: 55vh;
     }
   }
 
@@ -90,7 +92,7 @@ body {
     }
 
     to {
-      height: 45vh;
+      height: 55vh;
     }
   }
 
@@ -119,7 +121,7 @@ body {
     color: black;
     font-size: 1em;
     animation: slidein;
-    animation-duration: 1s;
+    animation-duration: 3s;
   }
 
   .expand-about-left {
@@ -145,7 +147,7 @@ body {
     color: white;
     font-size: 1em;
     animation: slideout;
-    animation-duration: 1s;
+    animation-duration: 3s;
   }
 
   @keyframes slidein {
@@ -576,7 +578,6 @@ body {
 
   .upper-proj1-container {
     font-size: 0.8em;
-    color: black;
     /* animation: upper-proj1 1s; */
     text-align: center;
     border-top-left-radius: 15px;
@@ -585,7 +586,6 @@ body {
 
   .upper-proj2-container {
     font-size: 0.8em;
-    color: black;
     /* animation: upper-proj2 2s; */
     text-align: center;
     border-top-left-radius: 15px;
@@ -594,14 +594,12 @@ body {
 
   .lower-proj1-container {
     font-size: 0.8em;
-    color: black;
     /* animation: lower-proj1 3s; */
     text-align: center;
   }
 
   .lower-proj2-container {
     font-size: 0.8em;
-    color: black;
     /* animation: lower-proj2 3s; */
     text-align: center;
   }
@@ -1036,6 +1034,115 @@ body {
     cursor: pointer;
     transition: ease-in 150ms;
   }
+
+  .toggle-switch-div {
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    position: absolute;
+    top: 1vh;
+    right: 1vh;
+    color: black;
+    z-index: 1;
+  }
+  .toggle-switch-div div {
+    font-size: 0.8em;
+    margin-bottom: 5px;
+  }
+  .switch {
+    position: relative;
+    display: block;
+    width: 55px;
+    height: 25px;
+  }
+
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: -2px;
+    left: 0;
+    right: -1px;
+    bottom: 0px;
+    background: white;
+    transition: 0.5s;
+    border: 2px solid black;
+  }
+
+  .slider:before {
+    position: absolute;
+    content: '';
+    bottom: 10px;
+    background-color: black;
+    transition: 0.5s;
+  }
+
+  .switch input {
+    display: none;
+  }
+
+  input:checked + .slider {
+    background-color: black;
+  }
+
+  input:checked + .slider:before {
+    transform: translateX(35px) rotateZ(46deg);
+    background: rgba(241, 255, 86, 255);
+  }
+
+  .slider.round {
+    border-radius: 35px;
+  }
+
+  .slider.round:before {
+    width: 30%;
+    height: 40%;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    transform: rotateZ(-45deg);
+  }
+
+  .dark-mode-left {
+    background-color: rgba(0, 0, 0, 0.822);
+    animation: dark-to-light-left 700ms;
+    color: rgb(202, 202, 202);
+  }
+
+  @keyframes dark-to-light-left {
+    from {
+      background-color: rgba(241, 255, 86, 255);
+    }
+
+    to {
+      background-color: rgba(0, 0, 0, 0.822);
+    }
+  }
+
+  .dark-mode-right {
+    background-color: rgb(46, 90, 104);
+    animation: dark-to-light-right 500ms;
+    color: rgb(202, 202, 202);
+  }
+
+  @keyframes dark-to-light-right {
+    from {
+      background-color: rgb(255, 255, 255);
+    }
+
+    to {
+      background-color: rgb(46, 90, 104);
+    }
+  }
+
+  @keyframes light-to-dark-right {
+    from {
+      background-color: rgb(27, 70, 90);
+    }
+
+    to {
+      background-color: rgba(241, 255, 86, 255);
+    }
+  }
 }
 /* LARGER SCREENS BELOW */
 
@@ -1168,11 +1275,10 @@ body {
     align-items: center;
     width: 5%;
     height: 100vh;
-    background-color: rgb(255, 255, 255);
     color: white;
     font-size: 1em;
     animation: slideout;
-    animation-duration: 1s;
+    animation-duration: 3s;
   }
 
   @keyframes slidein {
@@ -1198,6 +1304,7 @@ body {
   .title-line1 {
     font-family: 'Lexend', sans-serif;
     color: rgba(20, 20, 20, 0.747);
+    /* color: rgb(198, 235, 161); */
     font-size: 4vw;
     display: flex;
     justify-content: center;
@@ -1606,7 +1713,6 @@ body {
 
   .upper-proj1-container {
     font-size: 0.8em;
-    color: black;
     /* animation: upper-proj1 1s; */
     text-align: center;
     border-top-left-radius: 15px;
@@ -1615,7 +1721,6 @@ body {
 
   .upper-proj2-container {
     font-size: 0.8em;
-    color: black;
     /* animation: upper-proj2 2s; */
     text-align: center;
     border-top-left-radius: 15px;
@@ -1624,14 +1729,12 @@ body {
 
   .lower-proj1-container {
     font-size: 0.8em;
-    color: black;
     /* animation: lower-proj1 3s; */
     text-align: center;
   }
 
   .lower-proj2-container {
     font-size: 0.8em;
-    color: black;
     /* animation: lower-proj2 3s; */
     text-align: center;
   }
@@ -2051,5 +2154,113 @@ body {
   .close-tech:hover {
     cursor: pointer;
     transition: ease-in 150ms;
+  }
+
+  .toggle-switch-div {
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    width: fit-content;
+    position: absolute;
+    top: 2vh;
+    right: 5vh;
+    color: black;
+    z-index: 1;
+  }
+  .toggle-switch-div div {
+    margin-top: 7px;
+    margin-right: 5px;
+  }
+  .switch {
+    position: relative;
+    display: block;
+    width: 67px;
+    height: 38px;
+  }
+
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: -2px;
+    left: 0;
+    right: -1px;
+    bottom: 0px;
+    background: white;
+    transition: 0.5s;
+    border: 2px solid black;
+  }
+
+  .slider:before {
+    position: absolute;
+    content: '';
+    bottom: 14px;
+    background-color: black;
+    transition: 0.5s;
+  }
+
+  .switch input {
+    display: none;
+  }
+
+  input:checked + .slider {
+    background-color: black;
+  }
+
+  input:checked + .slider:before {
+    transform: translateX(35px) rotateZ(46deg);
+    background: rgba(241, 255, 86, 255);
+  }
+
+  .slider.round {
+    border-radius: 35px;
+  }
+
+  .slider.round:before {
+    width: 40%;
+    height: 40%;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    transform: rotateZ(-45deg);
+  }
+
+  .dark-mode-left {
+    background-color: rgba(0, 0, 0, 0.822);
+    animation: dark-to-light-left 700ms;
+    color: rgb(202, 202, 202);
+  }
+
+  @keyframes dark-to-light-left {
+    from {
+      background-color: rgba(241, 255, 86, 255);
+    }
+
+    to {
+      background-color: rgba(0, 0, 0, 0.822);
+    }
+  }
+
+  .dark-mode-right {
+    background-color: rgb(46, 90, 104);
+    animation: dark-to-light-right 500ms;
+    color: rgb(202, 202, 202);
+  }
+
+  @keyframes dark-to-light-right {
+    from {
+      background-color: rgb(255, 255, 255);
+    }
+
+    to {
+      background-color: rgb(46, 90, 104);
+    }
+  }
+
+  @keyframes light-to-dark-right {
+    from {
+      background-color: rgb(27, 70, 90);
+    }
+
+    to {
+      background-color: rgba(241, 255, 86, 255);
+    }
   }
 }

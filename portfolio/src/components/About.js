@@ -1,6 +1,6 @@
 import React, { useReducer, useEffect } from 'react'
 import HomeTransition2 from './HomeTransition2'
-import { Modal } from 'react-rainbow-components'
+import { Modal, ProgressStep } from 'react-rainbow-components'
 
 const iState = {
   backClicked: false,
@@ -21,7 +21,7 @@ const reducer = (state, action) => {
   }
 }
 
-function Projects() {
+function Projects(props) {
   const [state, dispatch] = useReducer(reducer, iState)
 
   const handleClickedBack = () => {
@@ -37,7 +37,15 @@ function Projects() {
   if (!state.backClicked) {
     return (
       <div className="wrapper">
-        <div className="left-side expand-about-left">
+        <div
+          className="left-side expand-about-left"
+          style={{
+            backgroundColor: !props.darkMode
+              ? 'rgba(241, 255, 86, 255)'
+              : 'rgba(0, 0, 0, 0.822)',
+            color: !props.darkMode ? 'black' : 'rgb(202, 202, 202)'
+          }}
+        >
           <div className="side-nav">
             {' '}
             <div className="social-container">
@@ -401,11 +409,16 @@ function Projects() {
             </div>
           </Modal>
         </div>
-        <div className="right-side expand-about-right"></div>
+        <div
+          className="right-side expand-about-right"
+          style={{
+            backgroundColor: !props.darkMode ? 'white' : 'rgb(46, 90, 104)'
+          }}
+        ></div>
       </div>
     )
   } else {
-    return <HomeTransition2 />
+    return <HomeTransition2 darkMode={props.darkMode} />
   }
 }
 export default Projects
