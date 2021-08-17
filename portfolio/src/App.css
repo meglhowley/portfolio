@@ -13,7 +13,7 @@ body {
 
 /* SMALLER SCREENS BELOW */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .left-side {
     width: 100%;
     height: 45vh;
@@ -1146,7 +1146,7 @@ body {
 }
 /* LARGER SCREENS BELOW */
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1000px) {
   .wrapper {
     display: flex;
     min-height: 100vh;
