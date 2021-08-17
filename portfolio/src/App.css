@@ -277,17 +277,17 @@ body {
     align-items: center;
     text-align: center;
     border-radius: 50%;
-    height: 11vh;
-    width: 6.5vh;
+    height: 5vh;
+    width: 12vh;
     border-radius: 10px;
     padding: 0px;
     position: absolute;
-    top: 42vh;
-    left: 5vw;
+    top: 2.5vh;
+    left: 48vw;
     right: 50vw;
     transform: translateY(-50%);
     transform: translateX(-50%);
-    animation: slideleft;
+    animation: slidedown;
     animation-duration: 2.5s;
   }
 
@@ -314,13 +314,13 @@ body {
     animation-duration: 2.5s;
   }
 
-  @keyframes slideleft {
+  @keyframes slidedown {
     from {
-      left: -80vw;
+      top: -80vh;
     }
 
     to {
-      left: 5vw;
+      top: 2.5vw;
     }
   }
 
