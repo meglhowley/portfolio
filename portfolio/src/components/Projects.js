@@ -59,7 +59,7 @@ function Projects() {
       <div className="wrapper">
         <div className="left-side expand-projects-left"></div>
         <div onClick={handleClickedBack} className="back-projects">
-          <h1>BACK &nbsp;{width >= 1000 ? '»' : '↡'}</h1>
+          <h1>BACK &nbsp;{width >= 800 ? '»' : '↡'}</h1>
         </div>
         <div className="right-side expand-projects-right">
           {!state.twentyTrendyClicked &&
@@ -176,47 +176,47 @@ function Projects() {
               <br />
               <div className="main-bio tech-stack">
                 <b>
-                  <i>Technologies Used</i>{' '}
+                  <i>Technologies Used</i> <br />
                 </b>
                 <div>
                   <i
-                    style={{ fontSize: '4em' }}
+                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
                     class="devicon-react-original-wordmark"
                   ></i>
                   <i
-                    style={{ fontSize: '4em' }}
+                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
                     class="devicon-javascript-plain"
                   ></i>
                   <i
-                    style={{ fontSize: '4em' }}
+                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
                     class="devicon-css3-plain-wordmark"
                   ></i>
                   <i
-                    style={{ fontSize: '4em' }}
+                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
                     class="devicon-redux-original"
                   ></i>
                   <i
-                    style={{ fontSize: '4em' }}
+                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
                     class="devicon-npm-original-wordmark"
                   ></i>
                   <i
-                    style={{ fontSize: '4em' }}
+                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
                     class="devicon-python-plain-wordmark"
                   ></i>
                   <i
-                    style={{ fontSize: '4em' }}
+                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
                     class="devicon-postgresql-plain-wordmark"
                   ></i>
                   <i
-                    style={{ fontSize: '4em' }}
+                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
                     class="devicon-flask-original-wordmark colored"
                   ></i>
                   <i
-                    style={{ fontSize: '7em' }}
+                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
                     class="devicon-sqlalchemy-original-wordmark colored"
                   ></i>{' '}
                   <i
-                    style={{ fontSize: '4em' }}
+                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
                     class="devicon-vscode-plain-wordmark"
                   ></i>
                 </div>
@@ -290,23 +290,23 @@ function Projects() {
               <br />
               <div className="main-bio tech-stack">
                 <b>
-                  <i>Technologies Used</i>{' '}
+                  <i>Technologies Used</i> <br />
                 </b>
                 <div>
                   <i
-                    style={{ fontSize: '4em' }}
+                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
                     class="devicon-html5-plain-wordmark"
                   ></i>
                   <i
-                    style={{ fontSize: '4em' }}
+                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
                     class="devicon-javascript-plain"
                   ></i>
                   <i
-                    style={{ fontSize: '4em' }}
+                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
                     class="devicon-css3-plain-wordmark"
                   ></i>
                   <i
-                    style={{ fontSize: '4em' }}
+                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
                     class="devicon-vscode-plain-wordmark"
                   ></i>
                 </div>
@@ -383,47 +383,47 @@ function Projects() {
               <br />
               <div className="main-bio tech-stack">
                 <b>
-                  <i>Technologies Used</i>{' '}
+                  <i>Technologies Used</i> <br />
                 </b>
                 <div>
                   <i
-                    style={{ fontSize: '4em', margin: '5px' }}
+                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
                     class="devicon-react-original-wordmark"
                   ></i>
                   <i
-                    style={{ fontSize: '4em', margin: '5px' }}
+                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
                     class="devicon-javascript-plain"
                   ></i>
                   <i
-                    style={{ fontSize: '4em', margin: '5x' }}
+                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
                     class="devicon-css3-plain-wordmark"
                   ></i>
                   <i
-                    style={{ fontSize: '4em', margin: '5px' }}
+                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
                     class="devicon-npm-original-wordmark"
                   ></i>
                   <i
-                    style={{ fontSize: '4em', margin: '5px' }}
+                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
                     class="devicon-express-original"
                   ></i>
                   <i
-                    style={{ fontSize: '4em', margin: '5px' }}
+                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
                     class="devicon-mongodb-plain-wordmark"
                   ></i>
                   <i
-                    style={{ fontSize: '4em', margin: '5px' }}
+                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
                     class="devicon-postgresql-plain-wordmark"
                   ></i>
                   <i
-                    style={{ fontSize: '6em', margin: '5px' }}
+                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
                     class="devicon-sequelize-plain-wordmark"
                   ></i>
                   <i
-                    style={{ fontSize: '4em', margin: '5px' }}
+                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
                     class="devicon-vscode-plain-wordmark"
                   ></i>
                   <i
-                    style={{ fontSize: '4em', margin: '5px' }}
+                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
                     class="devicon-nodejs-plain-wordmark"
                   ></i>
                 </div>
@@ -509,43 +509,43 @@ function Projects() {
               <br />
               <div className="main-bio tech-stack">
                 <b>
-                  <i>Technologies Used</i>{' '}
+                  <i>Technologies Used</i> <br />
                 </b>
                 <div>
                   <i
-                    style={{ fontSize: '4em', margin: '5px' }}
+                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
                     class="devicon-react-original-wordmark"
                   ></i>
                   <i
-                    style={{ fontSize: '4em', margin: '5px' }}
+                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
                     class="devicon-javascript-plain"
                   ></i>
                   <i
-                    style={{ fontSize: '4em', margin: '5x' }}
+                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
                     class="devicon-css3-plain-wordmark"
                   ></i>
                   <i
-                    style={{ fontSize: '4em', margin: '5px' }}
+                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
                     class="devicon-npm-original-wordmark"
                   ></i>
                   <i
-                    style={{ fontSize: '4em', margin: '5px' }}
+                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
                     class="devicon-express-original"
                   ></i>
                   <i
-                    style={{ fontSize: '4em', margin: '5px' }}
+                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
                     class="devicon-postgresql-plain-wordmark"
                   ></i>
                   <i
-                    style={{ fontSize: '6em', margin: '5px' }}
+                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
                     class="devicon-sequelize-plain-wordmark"
                   ></i>
                   <i
-                    style={{ fontSize: '4em', margin: '5px' }}
+                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
                     class="devicon-vscode-plain-wordmark"
                   ></i>
                   <i
-                    style={{ fontSize: '4em', margin: '5px' }}
+                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
                     class="devicon-nodejs-plain-wordmark"
                   ></i>
                 </div>
@@ -613,32 +613,30 @@ function Projects() {
                 zero out.
               </div>
               <br />
-              <br />
-              <br />
               <div className="main-bio tech-stack">
                 <b>
-                  <i>Technologies Used</i>{' '}
+                  <i>Technologies Used</i> <br />
                 </b>
                 <div>
                   <i
-                    style={{ fontSize: '4em' }}
+                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
                     class="devicon-react-original-wordmark"
                   ></i>
                   <i
-                    style={{ fontSize: '4em' }}
+                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
                     class="devicon-javascript-plain"
                   ></i>
                   <i
-                    style={{ fontSize: '4em' }}
+                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
                     class="devicon-css3-plain-wordmark"
                   ></i>
 
                   <i
-                    style={{ fontSize: '4em' }}
+                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
                     class="devicon-npm-original-wordmark"
                   ></i>
                   <i
-                    style={{ fontSize: '4em' }}
+                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
                     class="devicon-vscode-plain-wordmark"
                   ></i>
                 </div>
@@ -711,32 +709,30 @@ function Projects() {
                 rendering. API calls were fetched using Axios.
               </div>
               <br />
-              <br />
-              <br />
               <div className="main-bio tech-stack">
                 <b>
-                  <i>Technologies Used</i>{' '}
+                  <i>Technologies Used</i> <br />
                 </b>
                 <div>
                   <i
-                    style={{ fontSize: '4em' }}
+                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
                     class="devicon-react-original-wordmark"
                   ></i>
                   <i
-                    style={{ fontSize: '4em' }}
+                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
                     class="devicon-javascript-plain"
                   ></i>
                   <i
-                    style={{ fontSize: '4em' }}
+                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
                     class="devicon-css3-plain-wordmark"
                   ></i>
 
                   <i
-                    style={{ fontSize: '4em' }}
+                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
                     class="devicon-npm-original-wordmark"
                   ></i>
                   <i
-                    style={{ fontSize: '4em' }}
+                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
                     class="devicon-vscode-plain-wordmark"
                   ></i>
                 </div>
@@ -820,36 +816,34 @@ function Projects() {
                 management between components.
               </div>
               <br />
-              <br />
-              <br />
               <div className="main-bio tech-stack">
                 <b>
                   <i>Technologies Used</i>{' '}
                 </b>
                 <div>
                   <i
-                    style={{ fontSize: '4em' }}
+                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
                     class="devicon-react-original-wordmark"
                   ></i>
                   <i
-                    style={{ fontSize: '4em' }}
+                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
                     class="devicon-redux-original"
                   ></i>
                   <i
-                    style={{ fontSize: '4em' }}
+                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
                     class="devicon-javascript-plain"
                   ></i>
                   <i
-                    style={{ fontSize: '4em' }}
+                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
                     class="devicon-css3-plain-wordmark"
                   ></i>
 
                   <i
-                    style={{ fontSize: '4em' }}
+                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
                     class="devicon-npm-original-wordmark"
                   ></i>
                   <i
-                    style={{ fontSize: '4em' }}
+                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
                     class="devicon-vscode-plain-wordmark"
                   ></i>
                 </div>
@@ -916,19 +910,18 @@ function Projects() {
                 main.py" 3) Build out Link's destiny!
               </div>
               <br />
-              <br />
-              <br />
               <div className="main-bio tech-stack">
                 <b>
-                  <i>Technologies Used</i>{' '}
+                  <i>Technologies Used</i> <br />
+                  <br />
                 </b>
                 <div>
                   <i
-                    style={{ fontSize: '4em' }}
+                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
                     class="devicon-python-plain-wordmark"
                   ></i>
                   <i
-                    style={{ fontSize: '4em' }}
+                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
                     class="devicon-vscode-plain-wordmark"
                   ></i>
                 </div>

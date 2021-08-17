@@ -394,8 +394,8 @@ body {
   }
 
   .project-card {
-    width: 33vh;
-    height: 33vh;
+    width: 18vh;
+    height: 18vh;
     border-radius: 50%;
     box-shadow: 0 0 15px #ccc;
   }
@@ -493,7 +493,7 @@ body {
     display: flex;
     flex-direction: column;
     align-content: center;
-    width: 45vw;
+    width: 80vw;
     height: 92%;
     background-color: rgb(252, 252, 252);
     box-shadow: 0 0 15px rgb(212, 210, 210);
@@ -521,7 +521,7 @@ body {
 
   .view {
     margin: 0 auto;
-    font-size: 0.9vw;
+    font-size: 2.2vw;
     display: flex;
     align-items: center;
     border: solid 1px black;
@@ -549,11 +549,10 @@ body {
 
   .projects-container {
     font-family: 'Lexend', sans-serif;
-    font-size: 1.75vw;
-    display: grid;
+    font-size: 2vh;
+    display: flex;
     justify-items: center;
     justify-content: center;
-    grid-template-columns: 1fr 1fr;
     width: 50vw;
     align-items: center;
     height: 100%;
@@ -748,7 +747,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 7%;
-    width: 80%;
+    width: 90%;
     text-align: justify;
     font-size: 1.85vh;
   }
@@ -761,8 +760,8 @@ body {
 
   .back {
     position: absolute;
-    bottom: 8vh;
-    left: 45vw;
+    bottom: 5vh;
+    left: 30vw;
   }
 
   .tech-stack div {
@@ -1236,7 +1235,7 @@ body {
     padding: 0px;
     position: absolute;
     top: 68vh;
-    left: 86vw;
+    left: 84vw;
     transform: translateY(-50%);
     transform: translateX(-50%);
   }
@@ -1384,7 +1383,7 @@ body {
     font-family: 'Lexend', sans-serif;
     font-size: 1.4vw;
     text-align: center;
-    width: 200px;
+    width: 220px;
     margin: 0 auto;
     padding-top: 15px;
     padding-bottom: 15px;
