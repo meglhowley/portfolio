@@ -402,8 +402,8 @@ body {
   }
 
   .project-card {
-    width: 50vw;
-    height: 50vw;
+    width: 40vw;
+    height: 40vw;
     border-radius: 50%;
     box-shadow: 0 0 15px #ccc;
   }
@@ -557,7 +557,7 @@ body {
 
   .projects-container {
     font-family: 'Lexend', sans-serif;
-    font-size: 4.5vh;
+    font-size: 3.5vh;
     display: flex;
     flex-direction: column;
     width: 97vw;
@@ -802,7 +802,7 @@ body {
   .main-project-div {
     display: flex;
     align-items: center;
-    overflow-y: hidden;
+    overflow-y: scroll;
     height: 80vh;
     width: 80vw;
   }
