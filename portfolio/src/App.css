@@ -106,7 +106,7 @@ body {
     box-shadow: none;
     position: relative;
     animation: slideout;
-    animation-duration: 3s;
+    animation-duration: 2s;
   }
 
   .expand-projects-right {
@@ -121,7 +121,7 @@ body {
     color: black;
     font-size: 1em;
     animation: slidein;
-    animation-duration: 3s;
+    animation-duration: 2s;
   }
 
   .expand-about-left {
@@ -134,7 +134,7 @@ body {
     box-shadow: none;
     position: relative;
     animation: slidein;
-    animation-duration: 3s;
+    animation-duration: 2s;
   }
 
   .expand-about-right {
@@ -147,7 +147,7 @@ body {
     color: white;
     font-size: 1em;
     animation: slideout;
-    animation-duration: 3s;
+    animation-duration: 2s;
   }
 
   @keyframes slidein {
@@ -312,7 +312,7 @@ body {
     right: 50vw;
     transform: translateY(-50%);
     transform: translateX(-50%);
-    animation: slideright;
+    animation: slideup;
     animation-duration: 2.5s;
   }
 
@@ -322,17 +322,17 @@ body {
     }
 
     to {
-      top: 2.5vw;
+      top: 2.5vh;
     }
   }
 
-  @keyframes slideright {
+  @keyframes slideup {
     from {
-      left: 130vw;
+      bottom: -80vh;
     }
 
     to {
-      left: 95vw;
+      bottom: 3vh;
     }
   }
 
@@ -354,7 +354,7 @@ body {
 
   .box {
     font-family: 'Lexend', sans-serif;
-    font-size: 3vw;
+    font-size: 3.5vw;
     text-align: center;
     width: 35vw;
     margin: 0 auto;
@@ -906,7 +906,7 @@ body {
   }
 
   .top-half-bio {
-    animation: fade-in-up 2s;
+    animation: fade-in-up 1s;
     height: 35vh;
     width: 70vw;
     display: flex;
@@ -924,12 +924,12 @@ body {
     height: 45vh;
     margin-left: 17vw;
     margin-top: 0vh;
-    animation: fade-in-down 3.5s;
+    animation: fade-in-down 1.5s;
   }
 
   @keyframes fade-in-down {
     from {
-      margin-top: -2000%;
+      margin-top: -200%;
     }
 
     to {
@@ -939,7 +939,7 @@ body {
 
   @keyframes fade-in-up {
     from {
-      margin-bottom: -500%;
+      margin-bottom: -50%;
     }
 
     to {
@@ -1237,7 +1237,7 @@ body {
     box-shadow: none;
     position: relative;
     animation: slideout;
-    animation-duration: 3s;
+    animation-duration: 2s;
   }
 
   .expand-projects-right {
@@ -1252,7 +1252,7 @@ body {
     color: black;
     font-size: 1em;
     animation: slidein;
-    animation-duration: 1s;
+    animation-duration: 2s;
   }
 
   .expand-about-left {
@@ -1266,7 +1266,7 @@ body {
     box-shadow: none;
     position: relative;
     animation: slidein;
-    animation-duration: 3s;
+    animation-duration: 1.5s;
   }
 
   .expand-about-right {
@@ -1278,7 +1278,7 @@ body {
     color: white;
     font-size: 1em;
     animation: slideout;
-    animation-duration: 3s;
+    animation-duration: 1.5s;
   }
 
   @keyframes slidein {
@@ -2044,31 +2044,31 @@ body {
   }
 
   .top-half-bio {
-    animation: fade-in-up 2s;
+    animation: fade-in-up 2.25s;
   }
 
   .bottom-container {
     width: 100%;
-    animation: fade-in-down 3.5s;
+    animation: fade-in-down 2.35s;
   }
 
   @keyframes fade-in-down {
     from {
-      margin-top: -2000%;
+      margin-bottom: -1700%;
     }
 
     to {
-      margin-top: 0%;
+      margin-bottom: 0%;
     }
   }
 
   @keyframes fade-in-up {
     from {
-      margin-bottom: -500%;
+      margin-top: -1000%;
     }
 
     to {
-      margin-bottom: 0%;
+      margin-top: 0%;
     }
   }
 
