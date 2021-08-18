@@ -999,10 +999,7 @@ function Projects(props) {
                 Accepts user input for the direction of the game - including a
                 challenge to recreate Epona's Song to secure a horse, locate and
                 obtain the Master Sword, and battle Gannon to save Hyrule.
-                <br /> <br />
-                To play: 1) Fork and clone Github repository onto your local
-                machine 2) Inside the main directory, run command "python3
-                main.py" 3) Build out Link's destiny!
+                <br />
               </div>
               <br />
               <div className="main-bio tech-stack">
