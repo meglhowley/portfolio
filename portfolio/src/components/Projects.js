@@ -300,7 +300,7 @@ function Projects(props) {
                   </div>
                 </a>
               </div>
-              <div>
+              <div className="flick">
                 <Flickity>
                   <img
                     className="project-pic"
@@ -397,7 +397,7 @@ function Projects(props) {
                   </div>
                 </a>
               </div>
-              <div>
+              <div className="flick">
                 <Flickity>
                   <img
                     className="project-pic"
@@ -525,7 +525,7 @@ function Projects(props) {
                   </div>
                 </a>
               </div>
-              <div>
+              <div className="flick">
                 <Flickity>
                   <img
                     className="project-pic"
@@ -654,7 +654,7 @@ function Projects(props) {
                   </div>
                 </a>
               </div>
-              <div>
+              <div className="flick">
                 <Flickity>
                   <img
                     className="project-pic"
@@ -753,7 +753,7 @@ function Projects(props) {
                   </div>
                 </a>
               </div>
-              <div>
+              <div className="flick">
                 <Flickity>
                   <img
                     className="project-pic"
@@ -857,7 +857,7 @@ function Projects(props) {
                   </div>
                 </a>
               </div>
-              <div>
+              <div className="flick">
                 <Flickity>
                   <img
                     className="project-pic"
@@ -964,7 +964,7 @@ function Projects(props) {
                   </div>
                 </a>
               </div>
-              <div>
+              <div className="flick">
                 <Flickity>
                   <img
                     className="project-pic"
