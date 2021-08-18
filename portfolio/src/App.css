@@ -285,8 +285,7 @@ body {
     padding: 0px;
     position: absolute;
     top: 2.5vh;
-    left: 48vw;
-    right: 50vw;
+    left: 51vw;
     transform: translateY(-50%);
     transform: translateX(-50%);
     animation: slidedown;

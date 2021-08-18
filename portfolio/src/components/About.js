@@ -400,7 +400,7 @@ function Projects(props) {
           </div>
         </div>
         <div onClick={handleClickedBack} className="back-about">
-          <h1> BACK &nbsp;{width >= 1020 ? '«' : '^'}</h1>
+          <h1> BACK</h1>
         </div>
         <div>
           <Modal

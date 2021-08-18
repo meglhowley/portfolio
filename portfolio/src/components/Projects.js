@@ -66,7 +66,7 @@ function Projects(props) {
           }}
         ></div>
         <div onClick={handleClickedBack} className="back-projects">
-          <h1>BACK &nbsp;{width >= 1020 ? '»' : '↡'}</h1>
+          <h1>BACK</h1>
         </div>
         <div
           className="right-side expand-projects-right"
