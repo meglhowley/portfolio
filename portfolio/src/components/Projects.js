@@ -66,7 +66,7 @@ function Projects(props) {
           }}
         ></div>
         <div onClick={handleClickedBack} className="back-projects">
-          <h1>BACK &nbsp;{width >= 800 ? '»' : '↡'}</h1>
+          <h1>BACK &nbsp;{width >= 1020 ? '»' : '↡'}</h1>
         </div>
         <div
           className="right-side expand-projects-right"
@@ -205,43 +205,43 @@ function Projects(props) {
                 </b>
                 <div>
                   <i
-                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
+                    style={{ fontSize: width >= 1020 ? '4em' : '2.5em' }}
                     class="devicon-react-original-wordmark"
                   ></i>
                   <i
-                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
+                    style={{ fontSize: width >= 1020 ? '4em' : '2.5em' }}
                     class="devicon-javascript-plain"
                   ></i>
                   <i
-                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
+                    style={{ fontSize: width >= 1020 ? '4em' : '2.5em' }}
                     class="devicon-css3-plain-wordmark"
                   ></i>
                   <i
-                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
+                    style={{ fontSize: width >= 1020 ? '4em' : '2.5em' }}
                     class="devicon-redux-original"
                   ></i>
                   <i
-                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
+                    style={{ fontSize: width >= 1020 ? '4em' : '2.5em' }}
                     class="devicon-npm-original-wordmark"
                   ></i>
                   <i
-                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
+                    style={{ fontSize: width >= 1020 ? '4em' : '2.5em' }}
                     class="devicon-python-plain-wordmark"
                   ></i>
                   <i
-                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
+                    style={{ fontSize: width >= 1020 ? '4em' : '2.5em' }}
                     class="devicon-postgresql-plain-wordmark"
                   ></i>
                   <i
-                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
+                    style={{ fontSize: width >= 1020 ? '4em' : '2.5em' }}
                     class="devicon-flask-original-wordmark colored"
                   ></i>
                   <i
-                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
+                    style={{ fontSize: width >= 1020 ? '4em' : '2.5em' }}
                     class="devicon-sqlalchemy-original-wordmark colored"
                   ></i>{' '}
                   <i
-                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
+                    style={{ fontSize: width >= 1020 ? '4em' : '2.5em' }}
                     class="devicon-vscode-plain-wordmark"
                   ></i>
                 </div>
@@ -327,19 +327,19 @@ function Projects(props) {
                 </b>
                 <div>
                   <i
-                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
+                    style={{ fontSize: width >= 1020 ? '4em' : '2.5em' }}
                     class="devicon-html5-plain-wordmark"
                   ></i>
                   <i
-                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
+                    style={{ fontSize: width >= 1020 ? '4em' : '2.5em' }}
                     class="devicon-javascript-plain"
                   ></i>
                   <i
-                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
+                    style={{ fontSize: width >= 1020 ? '4em' : '2.5em' }}
                     class="devicon-css3-plain-wordmark"
                   ></i>
                   <i
-                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
+                    style={{ fontSize: width >= 1020 ? '4em' : '2.5em' }}
                     class="devicon-vscode-plain-wordmark"
                   ></i>
                 </div>
@@ -427,43 +427,43 @@ function Projects(props) {
                 </b>
                 <div>
                   <i
-                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
+                    style={{ fontSize: width >= 1020 ? '4em' : '2.5em' }}
                     class="devicon-react-original-wordmark"
                   ></i>
                   <i
-                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
+                    style={{ fontSize: width >= 1020 ? '4em' : '2.5em' }}
                     class="devicon-javascript-plain"
                   ></i>
                   <i
-                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
+                    style={{ fontSize: width >= 1020 ? '4em' : '2.5em' }}
                     class="devicon-css3-plain-wordmark"
                   ></i>
                   <i
-                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
+                    style={{ fontSize: width >= 1020 ? '4em' : '2.5em' }}
                     class="devicon-npm-original-wordmark"
                   ></i>
                   <i
-                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
+                    style={{ fontSize: width >= 1020 ? '4em' : '2.5em' }}
                     class="devicon-express-original"
                   ></i>
                   <i
-                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
+                    style={{ fontSize: width >= 1020 ? '4em' : '2.5em' }}
                     class="devicon-mongodb-plain-wordmark"
                   ></i>
                   <i
-                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
+                    style={{ fontSize: width >= 1020 ? '4em' : '2.5em' }}
                     class="devicon-postgresql-plain-wordmark"
                   ></i>
                   <i
-                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
+                    style={{ fontSize: width >= 1020 ? '4em' : '2.5em' }}
                     class="devicon-sequelize-plain-wordmark"
                   ></i>
                   <i
-                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
+                    style={{ fontSize: width >= 1020 ? '4em' : '2.5em' }}
                     class="devicon-vscode-plain-wordmark"
                   ></i>
                   <i
-                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
+                    style={{ fontSize: width >= 1020 ? '4em' : '2.5em' }}
                     class="devicon-nodejs-plain-wordmark"
                   ></i>
                 </div>
@@ -560,39 +560,39 @@ function Projects(props) {
                 </b>
                 <div>
                   <i
-                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
+                    style={{ fontSize: width >= 1020 ? '4em' : '2.5em' }}
                     class="devicon-react-original-wordmark"
                   ></i>
                   <i
-                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
+                    style={{ fontSize: width >= 1020 ? '4em' : '2.5em' }}
                     class="devicon-javascript-plain"
                   ></i>
                   <i
-                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
+                    style={{ fontSize: width >= 1020 ? '4em' : '2.5em' }}
                     class="devicon-css3-plain-wordmark"
                   ></i>
                   <i
-                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
+                    style={{ fontSize: width >= 1020 ? '4em' : '2.5em' }}
                     class="devicon-npm-original-wordmark"
                   ></i>
                   <i
-                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
+                    style={{ fontSize: width >= 1020 ? '4em' : '2.5em' }}
                     class="devicon-express-original"
                   ></i>
                   <i
-                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
+                    style={{ fontSize: width >= 1020 ? '4em' : '2.5em' }}
                     class="devicon-postgresql-plain-wordmark"
                   ></i>
                   <i
-                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
+                    style={{ fontSize: width >= 1020 ? '4em' : '2.5em' }}
                     class="devicon-sequelize-plain-wordmark"
                   ></i>
                   <i
-                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
+                    style={{ fontSize: width >= 1020 ? '4em' : '2.5em' }}
                     class="devicon-vscode-plain-wordmark"
                   ></i>
                   <i
-                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
+                    style={{ fontSize: width >= 1020 ? '4em' : '2.5em' }}
                     class="devicon-nodejs-plain-wordmark"
                   ></i>
                 </div>
@@ -674,24 +674,24 @@ function Projects(props) {
                 </b>
                 <div>
                   <i
-                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
+                    style={{ fontSize: width >= 1020 ? '4em' : '2.5em' }}
                     class="devicon-react-original-wordmark"
                   ></i>
                   <i
-                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
+                    style={{ fontSize: width >= 1020 ? '4em' : '2.5em' }}
                     class="devicon-javascript-plain"
                   ></i>
                   <i
-                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
+                    style={{ fontSize: width >= 1020 ? '4em' : '2.5em' }}
                     class="devicon-css3-plain-wordmark"
                   ></i>
 
                   <i
-                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
+                    style={{ fontSize: width >= 1020 ? '4em' : '2.5em' }}
                     class="devicon-npm-original-wordmark"
                   ></i>
                   <i
-                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
+                    style={{ fontSize: width >= 1020 ? '4em' : '2.5em' }}
                     class="devicon-vscode-plain-wordmark"
                   ></i>
                 </div>
@@ -778,24 +778,24 @@ function Projects(props) {
                 </b>
                 <div>
                   <i
-                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
+                    style={{ fontSize: width >= 1020 ? '4em' : '2.5em' }}
                     class="devicon-react-original-wordmark"
                   ></i>
                   <i
-                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
+                    style={{ fontSize: width >= 1020 ? '4em' : '2.5em' }}
                     class="devicon-javascript-plain"
                   ></i>
                   <i
-                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
+                    style={{ fontSize: width >= 1020 ? '4em' : '2.5em' }}
                     class="devicon-css3-plain-wordmark"
                   ></i>
 
                   <i
-                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
+                    style={{ fontSize: width >= 1020 ? '4em' : '2.5em' }}
                     class="devicon-npm-original-wordmark"
                   ></i>
                   <i
-                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
+                    style={{ fontSize: width >= 1020 ? '4em' : '2.5em' }}
                     class="devicon-vscode-plain-wordmark"
                   ></i>
                 </div>
@@ -893,28 +893,28 @@ function Projects(props) {
                 </b>
                 <div>
                   <i
-                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
+                    style={{ fontSize: width >= 1020 ? '4em' : '2.5em' }}
                     class="devicon-react-original-wordmark"
                   ></i>
                   <i
-                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
+                    style={{ fontSize: width >= 1020 ? '4em' : '2.5em' }}
                     class="devicon-redux-original"
                   ></i>
                   <i
-                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
+                    style={{ fontSize: width >= 1020 ? '4em' : '2.5em' }}
                     class="devicon-javascript-plain"
                   ></i>
                   <i
-                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
+                    style={{ fontSize: width >= 1020 ? '4em' : '2.5em' }}
                     class="devicon-css3-plain-wordmark"
                   ></i>
 
                   <i
-                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
+                    style={{ fontSize: width >= 1020 ? '4em' : '2.5em' }}
                     class="devicon-npm-original-wordmark"
                   ></i>
                   <i
-                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
+                    style={{ fontSize: width >= 1020 ? '4em' : '2.5em' }}
                     class="devicon-vscode-plain-wordmark"
                   ></i>
                 </div>
@@ -996,11 +996,11 @@ function Projects(props) {
                 </b>
                 <div>
                   <i
-                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
+                    style={{ fontSize: width >= 1020 ? '4em' : '2.5em' }}
                     class="devicon-python-plain-wordmark"
                   ></i>
                   <i
-                    style={{ fontSize: width >= 800 ? '4em' : '2.5em' }}
+                    style={{ fontSize: width >= 1020 ? '4em' : '2.5em' }}
                     class="devicon-vscode-plain-wordmark"
                   ></i>
                 </div>

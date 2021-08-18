@@ -54,7 +54,7 @@ function HomeTransition2(props) {
             }}
             onClick={handleClickedAbout}
           >
-            a b o u t &nbsp; m e &nbsp; {width >= 1000 ? '»' : '↡'}
+            a b o u t &nbsp; m e &nbsp; {width >= 1020 ? '»' : '↡'}
           </div>
           <div
             className="title-line1"
@@ -94,7 +94,7 @@ function HomeTransition2(props) {
             }}
             onClick={handleClickedProjects}
           >
-            {width >= 1000 ? '«' : '↟'} &nbsp; p r o j e c t s
+            {width >= 1020 ? '«' : '↟'} &nbsp; p r o j e c t s
           </div>
         </div>
       </div>

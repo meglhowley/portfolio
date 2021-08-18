@@ -122,7 +122,7 @@ function Projects(props) {
                   <div className="skills-sect">
                     <div class="container animate__animated animate__tada">
                       <i
-                        style={{ fontSize: width >= 1100 ? '6vh' : '3.5vh' }}
+                        style={{ fontSize: width >= 1020 ? '6vh' : '3.5vh' }}
                         class="devicon-html5-plain-wordmark"
                       ></i>
                       <div class="overlay">
@@ -131,7 +131,7 @@ function Projects(props) {
                     </div>
                     <div class="container animate__animated animate__tada">
                       <i
-                        style={{ fontSize: width >= 1100 ? '6vh' : '3.5vh' }}
+                        style={{ fontSize: width >= 1020 ? '6vh' : '3.5vh' }}
                         class="devicon-react-original-wordmark"
                       ></i>
                       <div class="overlay">
@@ -140,7 +140,7 @@ function Projects(props) {
                     </div>
                     <div class="container animate__animated animate__tada">
                       <i
-                        style={{ fontSize: width >= 1100 ? '6vh' : '3.5vh' }}
+                        style={{ fontSize: width >= 1020 ? '6vh' : '3.5vh' }}
                         class="devicon-javascript-plain"
                       ></i>
                       <div class="overlay">
@@ -149,7 +149,7 @@ function Projects(props) {
                     </div>
                     <div class="container animate__animated animate__tada">
                       <i
-                        style={{ fontSize: width >= 1100 ? '6vh' : '3.5vh' }}
+                        style={{ fontSize: width >= 1020 ? '6vh' : '3.5vh' }}
                         class="devicon-css3-plain-wordmark"
                       ></i>
                       <div class="overlay">
@@ -158,7 +158,7 @@ function Projects(props) {
                     </div>
                     <div class="container animate__animated animate__tada">
                       <i
-                        style={{ fontSize: width >= 1100 ? '6vh' : '3.5vh' }}
+                        style={{ fontSize: width >= 1020 ? '6vh' : '3.5vh' }}
                         class="devicon-redux-original"
                       ></i>
                       <div class="overlay">
@@ -167,7 +167,7 @@ function Projects(props) {
                     </div>
                     <div class="container animate__animated animate__tada">
                       <i
-                        style={{ fontSize: width >= 1100 ? '6vh' : '3.5vh' }}
+                        style={{ fontSize: width >= 1020 ? '6vh' : '3.5vh' }}
                         class="devicon-npm-original-wordmark"
                       ></i>
                       <div class="overlay">
@@ -176,7 +176,7 @@ function Projects(props) {
                     </div>
                     <div class="container animate__animated animate__tada">
                       <i
-                        style={{ fontSize: width >= 1100 ? '6vh' : '3.5vh' }}
+                        style={{ fontSize: width >= 1020 ? '6vh' : '3.5vh' }}
                         class="devicon-nodejs-plain-wordmark"
                       ></i>
                       <div class="overlay">
@@ -185,7 +185,7 @@ function Projects(props) {
                     </div>
                     <div class="container animate__animated animate__tada">
                       <i
-                        style={{ fontSize: width >= 1100 ? '6vh' : '3.5vh' }}
+                        style={{ fontSize: width >= 1020 ? '6vh' : '3.5vh' }}
                         class="devicon-python-plain-wordmark"
                       ></i>
                       <div class="overlay">
@@ -194,7 +194,7 @@ function Projects(props) {
                     </div>
                     <div class="container animate__animated animate__tada">
                       <i
-                        style={{ fontSize: width >= 1100 ? '6vh' : '3.5vh' }}
+                        style={{ fontSize: width >= 1020 ? '6vh' : '3.5vh' }}
                         class="devicon-express-original"
                       ></i>
                       <div class="overlay">
@@ -203,7 +203,7 @@ function Projects(props) {
                     </div>
                     <div class="container animate__animated animate__tada">
                       <i
-                        style={{ fontSize: width >= 1100 ? '6vh' : '3.5vh' }}
+                        style={{ fontSize: width >= 1020 ? '6vh' : '3.5vh' }}
                         class="devicon-mongodb-plain-wordmark"
                       ></i>
                       <div class="overlay">
@@ -215,7 +215,7 @@ function Projects(props) {
                     </div>
                     <div class="container animate__animated animate__tada">
                       <i
-                        style={{ fontSize: width >= 1100 ? '6vh' : '3.5vh' }}
+                        style={{ fontSize: width >= 1020 ? '6vh' : '3.5vh' }}
                         class="devicon-postgresql-plain-wordmark"
                       ></i>
                       <div class="overlay">
@@ -228,7 +228,7 @@ function Projects(props) {
                     </div>
                     <div class="container animate__animated animate__tada">
                       <i
-                        style={{ fontSize: width >= 1100 ? '6vh' : '3.5vh' }}
+                        style={{ fontSize: width >= 1020 ? '6vh' : '3.5vh' }}
                         class="devicon-sequelize-plain"
                       ></i>
                       <div class="overlay">
@@ -237,7 +237,7 @@ function Projects(props) {
                     </div>
                     <div class="container animate__animated animate__tada">
                       <i
-                        style={{ fontSize: width >= 1100 ? '6vh' : '3.5vh' }}
+                        style={{ fontSize: width >= 1020 ? '6vh' : '3.5vh' }}
                         class="devicon-flask-original-wordmark colored"
                       ></i>
                       <div class="overlay">
@@ -246,7 +246,7 @@ function Projects(props) {
                     </div>
                     <div class="container animate__animated animate__tada">
                       <i
-                        style={{ fontSize: width >= 1100 ? '6vh' : '3.5vh' }}
+                        style={{ fontSize: width >= 1020 ? '6vh' : '3.5vh' }}
                         class="devicon-sqlalchemy-original-wordmark colored"
                       ></i>
                       <div class="overlay">
@@ -259,7 +259,7 @@ function Projects(props) {
                     </div>
                     <div class="container animate__animated animate__tada">
                       <i
-                        style={{ fontSize: width >= 1100 ? '6vh' : '3.5vh' }}
+                        style={{ fontSize: width >= 1020 ? '6vh' : '3.5vh' }}
                         class="devicon-vscode-plain-wordmark"
                       ></i>
                       <div class="overlay">
@@ -268,7 +268,7 @@ function Projects(props) {
                     </div>
                     <div class="container animate__animated animate__tada">
                       <i
-                        style={{ fontSize: width >= 1100 ? '6vh' : '3.5vh' }}
+                        style={{ fontSize: width >= 1020 ? '6vh' : '3.5vh' }}
                         class="devicon-git-plain-wordmark"
                       ></i>
                       <div class="overlay">
@@ -277,7 +277,7 @@ function Projects(props) {
                     </div>
                     <div class="container animate__animated animate__tada">
                       <i
-                        style={{ fontSize: width >= 1100 ? '6vh' : '3.5vh' }}
+                        style={{ fontSize: width >= 1020 ? '6vh' : '3.5vh' }}
                         class="devicon-github-original-wordmark"
                       ></i>
                       <div class="overlay">
@@ -286,7 +286,7 @@ function Projects(props) {
                     </div>
                     <div class="container animate__animated animate__tada">
                       <i
-                        style={{ fontSize: width >= 1100 ? '6vh' : '3.5vh' }}
+                        style={{ fontSize: width >= 1020 ? '6vh' : '3.5vh' }}
                         class="devicon-heroku-line-wordmark"
                       ></i>
                       <div class="overlay">
@@ -295,7 +295,7 @@ function Projects(props) {
                     </div>
                     <div class="container animate__animated animate__tada">
                       <img
-                        style={{ width: width >= 1100 ? '6vh' : '3.5vh' }}
+                        style={{ width: width >= 1020 ? '6vh' : '3.5vh' }}
                         src="https://i.imgur.com/Q9pqRVE.png"
                       />
                       <div class="overlay">
@@ -304,7 +304,7 @@ function Projects(props) {
                     </div>
                     <div class="container animate__animated animate__tada">
                       <i
-                        style={{ fontSize: width >= 1100 ? '6vh' : '3.3vh' }}
+                        style={{ fontSize: width >= 1020 ? '6vh' : '3.3vh' }}
                         class="devicon-trello-plain"
                       ></i>
                       <div class="overlay">
@@ -400,7 +400,7 @@ function Projects(props) {
           </div>
         </div>
         <div onClick={handleClickedBack} className="back-about">
-          <h1> BACK &nbsp;{width >= 1100 ? '«' : '^'}</h1>
+          <h1> BACK &nbsp;{width >= 1020 ? '«' : '^'}</h1>
         </div>
         <div>
           <Modal
