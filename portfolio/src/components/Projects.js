@@ -411,20 +411,19 @@ function Projects(props) {
                   />
                 </Flickity>
               </div>
+              <br />
               <div className="main-bio">
                 hikeME is an interactive full-stack hiking application that
                 allows users to browse Maine's best trails, built using the MERN
                 stack: Mongoose/Express/ React/Node.js. Trail data includes:
                 GoogleMaps location data, elevation gain, length, trail
-                difficulty, weather conditions, and more. User features of
-                hikeME include searching the database, adding/deleting comments
-                on trails, contributing trails to the collection, browsing
-                upcoming lunar & celestial events, and more.
+                difficulty, weather conditions, and more.
               </div>
               <br />
               <div className="main-bio tech-stack">
                 <b>
                   <i>Technologies Used</i> <br />
+                  <br />
                 </b>
                 <div>
                   <i
@@ -543,6 +542,7 @@ function Projects(props) {
                   />
                 </Flickity>
               </div>
+              <br />
               <div className="main-bio">
                 Barber-Shop Booking is a fully-functional, ready-made barber
                 solution with user authentication that allows clients to sign
@@ -550,15 +550,13 @@ function Projects(props) {
                 a variety of services. This application was built using the PERN
                 stack: PostgreSQL/Express/React/Node.js. The database was
                 created/managed using PostgreSQL (psql), in tandem with
-                Sequelize as the promise-based ORM library. A RESTful API was
-                created and called on using Axios. Front-end was built out using
-                React (with Hooks) / Functional Components/ CSS/ & JSX. The
-                web/server framework was built using Express.
+                Sequelize as the promise-based ORM library.
               </div>
               <br />
               <div className="main-bio tech-stack">
                 <b>
                   <i>Technologies Used</i> <br />
+                  <br />
                 </b>
                 <div>
                   <i
