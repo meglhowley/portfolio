@@ -795,7 +795,7 @@ body {
     display: flex;
     align-items: center;
     overflow-y: scroll;
-    height: 98vh;
+    height: 80vh;
     width: 90vw;
     -ms-overflow-style: none;
     scrollbar-width: none;
@@ -827,7 +827,7 @@ body {
     padding-top: 14px;
     padding-bottom: 9px;
     color: black;
-    left: 0.25vw;
+    left: 0vw;
   }
 
   .two {
