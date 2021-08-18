@@ -162,7 +162,7 @@ function Projects(props) {
                   </div>
                 </a>
               </div>
-              <div>
+              <div className="flick">
                 <Flickity>
                   <img
                     className="project-pic"
@@ -190,6 +190,8 @@ function Projects(props) {
                   />
                 </Flickity>
               </div>
+              <br />
+              <br />
               <div className="main-bio">
                 20TRENDY is a tour through the internet of 2020. It is a full
                 stack application that allows users to search trending internet
@@ -203,6 +205,8 @@ function Projects(props) {
                 <b>
                   <i>Technologies Used</i> <br />
                 </b>
+                <br />
+                <br />
                 <div>
                   <i
                     style={{ fontSize: width >= 1020 ? '4em' : '2.5em' }}
@@ -312,6 +316,8 @@ function Projects(props) {
                   />
                 </Flickity>
               </div>
+              <br />
+              <br />
               <div className="main-bio">
                 Ignite your nostalgia with this Bop-it! virtual game, modeled
                 after the beloved 90's Hasbro toy. This Vanilla JS game offers
@@ -411,6 +417,7 @@ function Projects(props) {
                   />
                 </Flickity>
               </div>
+              <br />
               <br />
               <div className="main-bio">
                 hikeME is an interactive full-stack hiking application that

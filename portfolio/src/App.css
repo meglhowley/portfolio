@@ -209,7 +209,7 @@ body {
     padding: 0px;
     position: absolute;
     bottom: 1vh;
-    left: 74vw;
+    left: 72vw;
     transform: translateY(-50%);
     transform: translateX(-50%);
   }
@@ -488,16 +488,21 @@ body {
 
   .description-container {
     border-radius: 5%;
-    padding-right: 50px;
     font-family: lexend;
     font-size: 0.9em;
     display: flex;
     flex-direction: column;
+    align-items: center;
     align-content: center;
-    width: 80vw;
+    width: 90vw;
     height: 92%;
     background-color: rgb(252, 252, 252);
     box-shadow: 0 0 15px rgb(212, 210, 210);
+  }
+
+  .flick {
+    margin: 0 auto;
+    width: 88vw;
   }
 
   @keyframes opacity-in {
@@ -520,7 +525,7 @@ body {
 
   .view {
     margin: 0 auto;
-    font-size: 2.2vw;
+    font-size: 3vw;
     display: flex;
     align-items: center;
     border: solid 1px black;
@@ -746,8 +751,8 @@ body {
   .main-bio {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 7%;
-    width: 90%;
+    margin-top: 4%;
+    width: 85%;
     text-align: justify;
     font-size: 1.3vh;
   }
@@ -761,7 +766,6 @@ body {
   .back {
     position: absolute;
     bottom: 5vh;
-    left: 30vw;
   }
 
   .tech-stack div {
