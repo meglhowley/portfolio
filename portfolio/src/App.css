@@ -1268,7 +1268,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    width: 100%;
+    width: 95%;
     background: none;
     background-color: rgba(241, 255, 86, 255);
     box-shadow: none;
@@ -2072,7 +2072,7 @@ body {
 
   .bottom-container {
     width: 100%;
-    animation: fade-in-down 3.3s;
+    animation: fade-in-down 3.2s;
   }
 
   @keyframes fade-in-down {
