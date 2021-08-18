@@ -166,11 +166,11 @@ function Projects(props) {
                 <Flickity>
                   <img
                     className="project-pic"
-                    src="https://camo.githubusercontent.com/1067d0e9ceaf96ba3e01fe34b68743bb779e84c4a951c13729f13484b6350ed7/68747470733a2f2f692e696d6775722e636f6d2f303352444d35352e706e67"
+                    src="https://i.imgur.com/ahfiBxs.png"
                   />
                   <img
                     className="project-pic"
-                    src="https://i.imgur.com/ahfiBxs.png"
+                    src="https://camo.githubusercontent.com/1067d0e9ceaf96ba3e01fe34b68743bb779e84c4a951c13729f13484b6350ed7/68747470733a2f2f692e696d6775722e636f6d2f303352444d35352e706e67"
                   />
                   <img
                     className="project-pic"
