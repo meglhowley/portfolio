@@ -550,6 +550,7 @@ function Projects(props) {
                 </Flickity>
               </div>
               <br />
+              <br />
               <div className="main-bio">
                 Barber-Shop Booking is a fully-functional, ready-made barber
                 solution with user authentication that allows clients to sign
