@@ -402,8 +402,8 @@ body {
   }
 
   .project-card {
-    width: 46vw;
-    height: 46vw;
+    width: 50vw;
+    height: 50vw;
     border-radius: 50%;
     box-shadow: 0 0 15px #ccc;
   }
@@ -557,13 +557,12 @@ body {
 
   .projects-container {
     font-family: 'Lexend', sans-serif;
-    font-size: 2.4vh;
+    font-size: 4.5vh;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
     width: 97vw;
     align-items: center;
-    height: 60vh;
-    flex-wrap: wrap;
+    height: 70vh;
     align-content: center;
   }
 
@@ -803,9 +802,9 @@ body {
   .main-project-div {
     display: flex;
     align-items: center;
-    flex-direction: column;
-    height: 85vh;
-    justify-content: space-evenly;
+    overflow-y: hidden;
+    height: 80vh;
+    width: 80vw;
   }
 
   .next {
