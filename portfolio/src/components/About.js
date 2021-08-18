@@ -318,7 +318,13 @@ function Projects(props) {
             <div className="bottom-container">
               <div className="trait-1">
                 <div className="icon">
-                  <img src="https://image.flaticon.com/icons/png/512/4185/4185176.png" />
+                  <img
+                    src={
+                      !props.darkMode
+                        ? 'https://image.flaticon.com/icons/png/512/4185/4185176.png'
+                        : 'https://i.imgur.com/fdUAOXx.png'
+                    }
+                  />
                 </div>
                 <div>
                   <h2>TEAM FIRST | EGOS LAST</h2>
@@ -334,7 +340,13 @@ function Projects(props) {
               </div>
               <div className="trait-2">
                 <div className="icon">
-                  <img src="https://i.imgur.com/O0Pnt7a.png" />
+                  <img
+                    src={
+                      !props.darkMode
+                        ? 'https://i.imgur.com/O0Pnt7a.png'
+                        : 'https://i.imgur.com/krZk1De.png'
+                    }
+                  />
                 </div>
                 <div>
                   <h2>PROBLEM-SOLVER | CREATOR</h2>
@@ -350,7 +362,13 @@ function Projects(props) {
               </div>
               <div className="trait-3">
                 <div className="icon">
-                  <img src="https://image.flaticon.com/icons/png/512/115/115801.png" />
+                  <img
+                    src={
+                      !props.darkMode
+                        ? 'https://image.flaticon.com/icons/png/512/115/115801.png'
+                        : 'https://i.imgur.com/3JONxUa.png'
+                    }
+                  />
                 </div>
                 <div>
                   <h2>CLIENT-FOCUSED | HUMAN-DRIVEN</h2>
@@ -366,7 +384,13 @@ function Projects(props) {
               </div>
               <div className="trait-4">
                 <div className="icon">
-                  <img src="https://image.flaticon.com/icons/png/512/123/123862.png" />
+                  <img
+                    src={
+                      !props.darkMode
+                        ? 'https://image.flaticon.com/icons/png/512/123/123862.png'
+                        : 'https://i.imgur.com/yxeZvDk.png'
+                    }
+                  />
                 </div>
                 <div>
                   <h2>AVID LEARNER | COMMITED TO EXCELLENCE</h2>

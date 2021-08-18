@@ -127,7 +127,15 @@ function Projects(props) {
               </div>
             </div>
           ) : state.twentyTrendyClicked ? (
-            <div className="description-container">
+            <div
+              className="description-container"
+              style={{
+                backgroundColor: !props.darkMode
+                  ? 'rgb(247, 247, 247)'
+                  : 'rgba(0, 0, 0, 0.65)',
+                color: !props.darkMode ? 'black' : 'rgb(156, 156, 156)'
+              }}
+            >
               <div className="view-buttons">
                 <a
                   target="_blank"
@@ -183,12 +191,12 @@ function Projects(props) {
                 </Flickity>
               </div>
               <div className="main-bio">
-                20TRENDY is a "doom scroll" through the year that changed life
-                as we have come to know it. 20TRENDY allows users to search
-                trending internet searches at different intervals through 2020,
-                based on what was occuring at the time. It is a full stack
-                application with user authentication and a back-end powered by
-                pytrend, Google Trend's unofficial API.
+                20TRENDY is a tour through the internet of 2020. It is a full
+                stack application that allows users to search trending internet
+                searches at different intervals through 2020, based on what was
+                occuring at the time. 20TRENDY includes user authentication and
+                a back-end powered by pytrend, Google Trend's unofficial API. It
+                was built using Python, Flask, SQL Alchemy, and React Redux.
               </div>
               <br />
               <div className="main-bio tech-stack">
@@ -253,7 +261,15 @@ function Projects(props) {
               <br />
             </div>
           ) : state.bopItClicked ? (
-            <div className="description-container">
+            <div
+              className="description-container"
+              style={{
+                backgroundColor: !props.darkMode
+                  ? 'rgb(247, 247, 247)'
+                  : 'rgba(0, 0, 0, 0.65)',
+                color: !props.darkMode ? 'black' : 'rgb(156, 156, 156)'
+              }}
+            >
               <div className="view-buttons">
                 <a
                   target="_blank"
@@ -343,7 +359,15 @@ function Projects(props) {
               <br />
             </div>
           ) : state.hikeMeClicked ? (
-            <div className="description-container">
+            <div
+              className="description-container"
+              style={{
+                backgroundColor: !props.darkMode
+                  ? 'rgb(247, 247, 247)'
+                  : 'rgba(0, 0, 0, 0.65)',
+                color: !props.darkMode ? 'black' : 'rgb(156, 156, 156)'
+              }}
+            >
               <div className="view-buttons">
                 <a
                   target="_blank"
@@ -460,7 +484,15 @@ function Projects(props) {
               <br />
             </div>
           ) : state.bbbClicked ? (
-            <div className="description-container">
+            <div
+              className="description-container"
+              style={{
+                backgroundColor: !props.darkMode
+                  ? 'rgb(247, 247, 247)'
+                  : 'rgba(0, 0, 0, 0.65)',
+                color: !props.darkMode ? 'black' : 'rgb(156, 156, 156)'
+              }}
+            >
               <div className="view-buttons">
                 <a
                   target="_blank"
@@ -582,7 +614,15 @@ function Projects(props) {
               <br />
             </div>
           ) : state.calculatorClicked ? (
-            <div className="description-container">
+            <div
+              className="description-container"
+              style={{
+                backgroundColor: !props.darkMode
+                  ? 'rgb(247, 247, 247)'
+                  : 'rgba(0, 0, 0, 0.65)',
+                color: !props.darkMode ? 'black' : 'rgb(156, 156, 156)'
+              }}
+            >
               <div className="view-buttons">
                 <a
                   target="_blank"
@@ -673,7 +713,15 @@ function Projects(props) {
               <br />
             </div>
           ) : state.recipesClicked ? (
-            <div className="description-container">
+            <div
+              className="description-container"
+              style={{
+                backgroundColor: !props.darkMode
+                  ? 'rgb(247, 247, 247)'
+                  : 'rgba(0, 0, 0, 0.65)',
+                color: !props.darkMode ? 'black' : 'rgb(156, 156, 156)'
+              }}
+            >
               <div className="view-buttons">
                 <a
                   target="_blank"
@@ -769,7 +817,15 @@ function Projects(props) {
               <br />
             </div>
           ) : state.moviesClicked ? (
-            <div className="description-container">
+            <div
+              className="description-container"
+              style={{
+                backgroundColor: !props.darkMode
+                  ? 'rgb(247, 247, 247)'
+                  : 'rgba(0, 0, 0, 0.65)',
+                color: !props.darkMode ? 'black' : 'rgb(156, 156, 156)'
+              }}
+            >
               <div className="view-buttons">
                 <a
                   target="_blank"
@@ -880,7 +936,15 @@ function Projects(props) {
               <br />
             </div>
           ) : state.byoAdventureClicked ? (
-            <div className="description-container">
+            <div
+              className="description-container"
+              style={{
+                backgroundColor: !props.darkMode
+                  ? 'rgb(247, 247, 247)'
+                  : 'rgba(0, 0, 0, 0.65)',
+                color: !props.darkMode ? 'black' : 'rgb(156, 156, 156)'
+              }}
+            >
               <div className="view-buttons">
                 <a
                   target="_blank"

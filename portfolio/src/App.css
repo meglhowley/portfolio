@@ -802,7 +802,7 @@ body {
     padding-top: 14px;
     padding-bottom: 9px;
     border-radius: 50%;
-    color: rgba(83, 82, 82, 0.904);
+    color: black;
     font-family: 'Nanum Myeongjo', serif;
   }
 
@@ -811,7 +811,7 @@ body {
     padding-right: 26px;
     padding-top: 14px;
     padding-bottom: 9px;
-    color: rgb(197, 197, 197);
+    color: black;
   }
 
   .two:hover {
@@ -1938,7 +1938,7 @@ body {
     padding-top: 14px;
     padding-bottom: 9px;
     border-radius: 50%;
-    color: rgba(83, 82, 82, 0.904);
+    color: black;
     font-family: 'Nanum Myeongjo', serif;
   }
 
@@ -1947,7 +1947,7 @@ body {
     padding-right: 26px;
     padding-top: 14px;
     padding-bottom: 9px;
-    color: rgb(197, 197, 197);
+    color: black;
   }
 
   .two:hover {
