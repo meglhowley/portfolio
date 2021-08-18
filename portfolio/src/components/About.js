@@ -90,9 +90,9 @@ function Projects(props) {
               <div className="biography">
                 <h2>Hey 👋&nbsp;I'm Meg.</h2>
                 <p>
-                  I am a full stack engineer with a passion for creating
-                  projects that emphasize clean functionality and thoughtful
-                  design. <br />
+                  I am a full stack engineer based out of New England. I love to
+                  create applications that emphasize clean functionality and
+                  mindful design. <br />
                 </p>
               </div>
               {!state.techClicked ? (
@@ -329,12 +329,10 @@ function Projects(props) {
                 <div>
                   <h2>TEAM FIRST | EGOS LAST</h2>
                   <p>
-                    I believe that in order to achieve true innovation, you must
-                    be wholly open to the ideas of your peers. I have a proven
-                    track-record of collaboration and relationship-building.
-                    When describing my strengths, my GA colleagues write
-                    "Everything - Megan is easily the best teammate I've worked
-                    with this cohort. "
+                    I have a proven track-record of collaboration and
+                    relationship-building. When describing my strengths, my GA
+                    colleagues write "Everything - Megan is easily the best
+                    teammate I've worked with this cohort. "
                   </p>
                 </div>
               </div>
@@ -352,11 +350,9 @@ function Projects(props) {
                   <h2>PROBLEM-SOLVER | CREATOR</h2>
                   <p>
                     Voted most creative in my recent General Assembly program, I
-                    am always pushing the limits of what is known. What
-                    captivates me about coding is its ability to combine both
-                    art and science- there is no singular solution to a complex
-                    problem and in the same vein, there are endless approaches
-                    to the design of digital interfaces.
+                    am always pushing the limits of what is known. Programming
+                    is governed by both art and science, allowing me to lean
+                    into my strengths.
                   </p>
                 </div>
               </div>
@@ -373,12 +369,10 @@ function Projects(props) {
                 <div>
                   <h2>CLIENT-FOCUSED | HUMAN-DRIVEN</h2>
                   <p>
-                    From my previous career, I bring with me years of deep
-                    client understanding. I guided both individual retail
-                    clients through complex finanicial planning software, and
-                    large advisory firms on how to use brokerage and custody
-                    shareholder systems. I know what trips clients up; and for
-                    that reason I always strive for a seamless user experience.
+                    I have years of experience guiding both retail clients
+                    through finanicial planning software, and large institutions
+                    through brokerage systems. I know what trips clients up; so
+                    I always prioritize user experience.
                   </p>
                 </div>
               </div>
@@ -396,11 +390,9 @@ function Projects(props) {
                   <h2>AVID LEARNER | COMMITED TO EXCELLENCE</h2>
                   <p>
                     Those who know me well would tell you my level of drive and
-                    ambition is unparalled. For better or for worse, I hold
-                    myself to an incredibly high standard of excellence. In my
-                    final review, my esteemed GA instructors informed me I was
-                    among the most talented budding software developers they
-                    have ever had in class.
+                    ambition is unparalled. During my final GA review, my
+                    esteemed instructors informed me I was among the most
+                    talented budding developers they have had in class.
                   </p>
                 </div>
               </div>
