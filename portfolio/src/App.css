@@ -2067,27 +2067,27 @@ body {
   }
 
   .top-half-bio {
-    animation: fade-in-up 1.6s;
+    animation: fade-in-up 2.1s;
   }
 
   .bottom-container {
     width: 100%;
-    animation: fade-in-down 2.85s;
+    animation: fade-in-down 3.3s;
   }
 
   @keyframes fade-in-down {
     from {
-      margin-left: -1800%;
+      margin-bottom: -1500%;
     }
 
     to {
-      margin-left: 0%;
+      margin-bottom: 0%;
     }
   }
 
   @keyframes fade-in-up {
     from {
-      margin-top: -1000%;
+      margin-top: -500%;
     }
 
     to {
