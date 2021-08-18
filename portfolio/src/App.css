@@ -14,6 +14,11 @@ body {
 /* SMALLER SCREENS BELOW */
 
 @media screen and (max-width: 1020px) {
+  body {
+    margin: 0;
+    overflow-x: hidden;
+  }
+
   .left-side {
     width: 100%;
     height: 45vh;
@@ -1255,7 +1260,7 @@ body {
     box-shadow: none;
     position: relative;
     animation: slidein;
-    animation-duration: 1.5s;
+    animation-duration: 2.5s;
   }
 
   .expand-about-right {
@@ -1267,7 +1272,7 @@ body {
     color: white;
     font-size: 1em;
     animation: slideout;
-    animation-duration: 1.5s;
+    animation-duration: 2.5s;
   }
 
   @keyframes slidein {
@@ -2033,21 +2038,21 @@ body {
   }
 
   .top-half-bio {
-    animation: fade-in-up 2.25s;
+    animation: fade-in-up 1.6s;
   }
 
   .bottom-container {
     width: 100%;
-    animation: fade-in-down 2.35s;
+    animation: fade-in-down 2.85s;
   }
 
   @keyframes fade-in-down {
     from {
-      margin-bottom: -1700%;
+      margin-left: -1800%;
     }
 
     to {
-      margin-bottom: 0%;
+      margin-left: 0%;
     }
   }
 
