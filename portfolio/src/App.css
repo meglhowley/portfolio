@@ -396,8 +396,8 @@ body {
   }
 
   .project-card {
-    width: 45vw;
-    height: 45vw;
+    width: 50vw;
+    height: 50vw;
     border-radius: 50%;
     box-shadow: 0 0 15px #ccc;
   }
@@ -549,7 +549,7 @@ body {
 
   .projects-container {
     font-family: 'Lexend', sans-serif;
-    font-size: 3.5vh;
+    font-size: 2.75vh;
     display: flex;
     flex-direction: column;
     width: 100vw;
@@ -827,10 +827,11 @@ body {
     padding-top: 14px;
     padding-bottom: 9px;
     color: black;
+    left: 0.25vw;
   }
 
   .two {
-    right: 5vw;
+    right: 0.25vw;
   }
 
   .two:hover {
