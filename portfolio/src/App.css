@@ -763,11 +763,6 @@ body {
     margin: 0 auto;
   }
 
-  .back {
-    position: absolute;
-    bottom: 5vh;
-  }
-
   .tech-stack div {
     text-align: center;
   }
