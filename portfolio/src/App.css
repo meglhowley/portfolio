@@ -505,8 +505,6 @@ body {
     height: 92%;
     background-color: rgb(252, 252, 252);
     box-shadow: 0 0 15px rgb(212, 210, 210);
-    animation: opacity-in;
-    animation-duration: 1s;
   }
 
   @keyframes opacity-in {
@@ -805,6 +803,13 @@ body {
     overflow-y: scroll;
     height: 80vh;
     width: 80vw;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: scroll;
+  }
+
+  .main-project-div::-webkit-scrollbar {
+    display: none;
   }
 
   .next {
