@@ -667,6 +667,8 @@ function Projects(props) {
                   />
                 </Flickity>
               </div>
+              <br />
+              <br />
               <div className="main-bio">
                 Simple, elegant calculator built in one night after learning
                 React Hooks for the first time. A clone of the Apple calculator,
@@ -767,6 +769,8 @@ function Projects(props) {
                   />
                 </Flickity>
               </div>
+              <br />
+              <br />
               <div className="main-bio">
                 Recipe and Nutrition search engine application built in 1 day
                 using the
@@ -878,6 +882,8 @@ function Projects(props) {
                   />
                 </Flickity>
               </div>
+              <br />
+              <br />
               <div className="main-bio">
                 Flick Finder is a movie search engine built in 1 day using the
                 <u>
@@ -985,6 +991,8 @@ function Projects(props) {
                   />
                 </Flickity>
               </div>
+              <br />
+              <br />
               <div className="main-bio">
                 A build your own CLI Terminal adventure game inspired by The
                 Legend of Zelda: Ocarina of Time built using Python only.
