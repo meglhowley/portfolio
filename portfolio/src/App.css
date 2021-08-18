@@ -1631,18 +1631,26 @@ body {
 
   .description-container {
     border-radius: 5%;
-    padding-right: 50px;
     font-family: lexend;
     font-size: 0.9em;
     display: flex;
     flex-direction: column;
     align-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
     width: 45vw;
     height: 92%;
-    background-color: rgb(252, 252, 252);
+    background-color: rgb(138, 108, 108);
     box-shadow: 0 0 15px rgb(212, 210, 210);
     animation: opacity-in;
     animation-duration: 1s;
+  }
+
+  .flick {
+    margin: 0 auto;
+    width: 40vw;
+    margin-left: 1%;
   }
 
   @keyframes opacity-in {
@@ -1924,7 +1932,6 @@ body {
     display: flex;
     padding-top: 3%;
     padding-bottom: 3%;
-    padding-left: 8%;
   }
 
   .code {
