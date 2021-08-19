@@ -50,7 +50,7 @@ function HomeTransition1(props) {
             style={{
               backgroundColor: !props.darkMode
                 ? 'transparent'
-                : 'rgb(156, 156, 156)'
+                : 'rgb(200, 200, 200, .8)'
             }}
             onClick={handleClickedAbout}
           >
@@ -86,11 +86,11 @@ function HomeTransition1(props) {
           }}
         >
           <div
-            className="box projects"
+            className={!props.darkMode ? 'box projects' : 'box projects hovah'}
             style={{
               backgroundColor: !props.darkMode
                 ? 'transparent'
-                : 'rgb(156, 156, 156)'
+                : 'rgb(200, 200, 200, .8)'
             }}
             onClick={handleClickedProjects}
           >
