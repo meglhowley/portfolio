@@ -2070,7 +2070,6 @@ body {
 
   .bottom-container {
     width: 100%;
-    height: 70vh;
     animation: fade-in-down 3.3s;
   }
 
@@ -2105,7 +2104,7 @@ body {
   .trait-4 {
     display: flex;
     align-items: center;
-    font-size: 0.93vw;
+    font-size: 1vw;
     width: 100%;
     font-family: lexend;
   }
