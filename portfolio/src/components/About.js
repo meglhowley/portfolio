@@ -387,7 +387,7 @@ function Projects(props) {
                   />
                 </div>
                 <div>
-                  <h2>AVID LEARNER | COMMITED TO EXCELLENCE</h2>
+                  <h2>AVID LEARNER | COMMITTED TO EXCELLENCE</h2>
                   <p>
                     Those who know me well would tell you my level of drive and
                     ambition is unparalled. During my final GA review, my
