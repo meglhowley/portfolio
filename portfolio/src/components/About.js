@@ -330,7 +330,7 @@ function Projects(props) {
                   <h2>TEAM FIRST | EGOS LAST</h2>
                   <p>
                     I have a proven track-record of collaboration and
-                    relationship-building. When describing my strengths, my GA
+                    relationship-building. When describing my strengths, my
                     colleagues write "Everything - Megan is easily the best
                     teammate I've worked with this cohort. "
                   </p>
@@ -370,7 +370,7 @@ function Projects(props) {
                   <h2>CLIENT-FOCUSED | HUMAN-DRIVEN</h2>
                   <p>
                     I have years of experience guiding both retail clients
-                    through finanicial planning software, and large institutions
+                    through financial planning software, and large institutions
                     through brokerage systems. I know what trips clients up; so
                     I always prioritize a seamless user experience.
                   </p>
