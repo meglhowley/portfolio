@@ -28,10 +28,6 @@ function Projects(props) {
     dispatch({ type: 'toggleHome' })
   }
 
-  useEffect(() => {
-    console.log(state.techClicked)
-  }, [state.techClicked])
-
   const width = window.innerWidth
 
   if (!state.backClicked) {

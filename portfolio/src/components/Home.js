@@ -31,10 +31,6 @@ function Home(props) {
 
   const width = window.innerWidth
 
-  console.log(props.darkMode)
-
-  useEffect(() => {}, [])
-
   if (!state.projectsClicked && !state.aboutClicked) {
     return (
       <div className="wrapper">

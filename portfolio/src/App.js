@@ -8,6 +8,8 @@ import React from 'react'
 function App() {
   const [darkMode, toggleDarkMode] = useState(false)
 
+  console.log('sup fellow dev. hire me :) ')
+
   return (
     <div>
       <div className="toggle-switch-div">
