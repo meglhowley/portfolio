@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Shrikhand&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@500&family=STIX+Two+Math&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@500&family=STIX+Two+Math&family=Staatliches&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Shrikhand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@500&family=STIX+Two+Math&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@500&family=STIX+Two+Math&family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 
 body {
   margin: 0;
@@ -172,7 +172,7 @@ body {
   }
 
   .title-line1 {
-    font-family: 'Lexend', sans-serif;
+    font-family: "Lexend", sans-serif;
     color: rgba(20, 20, 20, 0.747);
     font-size: 6vw;
     display: flex;
@@ -198,7 +198,7 @@ body {
   }
 
   .title-line2 {
-    font-family: 'Lexend', sans-serif;
+    font-family: "Lexend", sans-serif;
     color: rgba(20, 20, 20, 0.747);
     font-size: 7vw;
     display: flex;
@@ -216,7 +216,7 @@ body {
   }
 
   .me-pic {
-    background: url('https://i.imgur.com/FARRN3t.png');
+    background: url("https://i.imgur.com/FARRN3t.png");
     background-size: 115%;
     background-position-x: 30%;
     background-position-y: 50%;
@@ -271,7 +271,7 @@ body {
   }
 
   .back-projects {
-    font-family: 'Open Sans', cursive;
+    font-family: "Open Sans", cursive;
     background-color: rgb(63, 63, 63);
     color: white;
     font-size: 0.66vh;
@@ -294,7 +294,7 @@ body {
   }
 
   .back-about {
-    font-family: 'Open Sans', cursive;
+    font-family: "Open Sans", cursive;
     background-color: rgb(63, 63, 63);
     color: white;
     font-size: 0.66vh;
@@ -353,7 +353,7 @@ body {
   }
 
   .box {
-    font-family: 'Lexend', sans-serif;
+    font-family: "Lexend", sans-serif;
     font-size: 3.5vw;
     text-align: center;
     width: 35vw;
@@ -403,21 +403,21 @@ body {
   }
 
   .twenty {
-    background: url('https://i.imgur.com/HLNOBjq.png');
+    background: url("https://i.imgur.com/HLNOBjq.png");
     background-size: 102%;
     background-position-x: 9%;
     background-position-y: 65%;
   }
 
   .bop {
-    background: url('https://i.imgur.com/2iQisOd.png');
+    background: url("https://i.imgur.com/2iQisOd.png");
     background-size: 240%;
     background-position-x: 49.5%;
     background-position-y: 80%;
   }
 
   .hike {
-    background: url('https://i.imgur.com/3M7asj7.png');
+    background: url("https://i.imgur.com/3M7asj7.png");
     background-size: 171%;
     background-position-x: 82%;
     background-position-y: 1%;
@@ -425,7 +425,7 @@ body {
   }
 
   .bbb {
-    background: url('https://i.imgur.com/vPPiMs8.png');
+    background: url("https://i.imgur.com/vPPiMs8.png");
     background-size: 93%;
     background-position-x: 60%;
     background-position-y: 50%;
@@ -433,25 +433,25 @@ body {
   }
 
   .recipe {
-    background: url('https://i.imgur.com/BrcmqPl.png');
+    background: url("https://i.imgur.com/BrcmqPl.png");
     background-size: 145%;
     background-position-x: 48%;
     background-position-y: 35%;
   }
   .calculator {
-    background: url('https://i.imgur.com/FEqBsOc.png');
+    background: url("https://i.imgur.com/FEqBsOc.png");
     background-size: 125%;
     background-position-x: 42%;
     background-position-y: 5%;
   }
   .movies {
-    background: url('https://i.imgur.com/NaFydgI.png');
+    background: url("https://i.imgur.com/NaFydgI.png");
     background-size: 110%;
     background-position-x: 50%;
     background-position-y: 50%;
   }
   .zelda {
-    background: url('https://i.imgur.com/iLHhiN4.png');
+    background: url("https://i.imgur.com/iLHhiN4.png");
     background-size: 155%;
     background-position-x: 45%;
     background-position-y: 55%;
@@ -461,7 +461,7 @@ body {
   .bopit,
   .hikeme,
   .barber {
-    font-family: 'Open Sans', cursive;
+    font-family: "Open Sans", cursive;
     background-color: white;
     color: black;
     width: 300px;
@@ -471,7 +471,7 @@ body {
   }
 
   .description {
-    font-family: 'Open Sans', cursive;
+    font-family: "Open Sans", cursive;
     padding-top: 20px;
     font-size: 0.45em;
     background-color: white;
@@ -553,7 +553,7 @@ body {
   }
 
   .projects-container {
-    font-family: 'Lexend', sans-serif;
+    font-family: "Lexend", sans-serif;
     font-size: 2.75vh;
     display: flex;
     flex-direction: column;
@@ -816,7 +816,7 @@ body {
     padding-bottom: 9px;
     border-radius: 50%;
     color: black;
-    font-family: 'Nanum Myeongjo', serif;
+    font-family: "Nanum Myeongjo", serif;
     position: absolute;
   }
 
@@ -1044,7 +1044,7 @@ body {
   }
 
   .toggle-switch-div {
-    font-family: 'Quicksand', sans-serif;
+    font-family: "Quicksand", sans-serif;
     display: flex;
     align-items: flex-end;
     flex-direction: column;
@@ -1079,7 +1079,7 @@ body {
 
   .slider:before {
     position: absolute;
-    content: '';
+    content: "";
     bottom: 10px;
     background-color: black;
     transition: 0.5s;
@@ -1310,7 +1310,7 @@ body {
   }
 
   .title-line1 {
-    font-family: 'Lexend', sans-serif;
+    font-family: "Lexend", sans-serif;
     color: rgba(20, 20, 20, 0.747);
     /* color: rgb(198, 235, 161); */
     font-size: 4vw;
@@ -1338,7 +1338,7 @@ body {
   }
 
   .title-line2 {
-    font-family: 'Lexend', sans-serif;
+    font-family: "Lexend", sans-serif;
     color: rgba(20, 20, 20, 0.747);
     font-size: 4vw;
     display: flex;
@@ -1357,7 +1357,7 @@ body {
 
   .me-pic {
     position: absolute;
-    background: url('https://i.imgur.com/FARRN3t.png');
+    background: url("https://i.imgur.com/FARRN3t.png");
     background-size: 115%;
     background-position-x: 30%;
     background-position-y: 50%;
@@ -1412,7 +1412,7 @@ body {
   }
 
   .back-projects {
-    font-family: 'Open Sans', cursive;
+    font-family: "Open Sans", cursive;
     background-color: rgb(63, 63, 63);
     color: white;
     font-size: 0.66vh;
@@ -1436,7 +1436,7 @@ body {
   }
 
   .back-about {
-    font-family: 'Open Sans', cursive;
+    font-family: "Open Sans", cursive;
     background-color: rgb(63, 63, 63);
     color: white;
     font-size: 0.66vh;
@@ -1495,7 +1495,7 @@ body {
   }
 
   .box {
-    font-family: 'Lexend', sans-serif;
+    font-family: "Lexend", sans-serif;
     font-size: 1.4vw;
     text-align: center;
     width: 13vw;
@@ -1549,21 +1549,21 @@ body {
   }
 
   .twenty {
-    background: url('https://i.imgur.com/HLNOBjq.png');
+    background: url("https://i.imgur.com/HLNOBjq.png");
     background-size: 102%;
     background-position-x: 9%;
     background-position-y: 65%;
   }
 
   .bop {
-    background: url('https://i.imgur.com/2iQisOd.png');
+    background: url("https://i.imgur.com/2iQisOd.png");
     background-size: 240%;
     background-position-x: 49.5%;
     background-position-y: 80%;
   }
 
   .hike {
-    background: url('https://i.imgur.com/3M7asj7.png');
+    background: url("https://i.imgur.com/3M7asj7.png");
     background-size: 171%;
     background-position-x: 82%;
     background-position-y: 1%;
@@ -1571,7 +1571,7 @@ body {
   }
 
   .bbb {
-    background: url('https://i.imgur.com/vPPiMs8.png');
+    background: url("https://i.imgur.com/vPPiMs8.png");
     background-size: 93%;
     background-position-x: 60%;
     background-position-y: 50%;
@@ -1579,25 +1579,25 @@ body {
   }
 
   .recipe {
-    background: url('https://i.imgur.com/BrcmqPl.png');
+    background: url("https://i.imgur.com/BrcmqPl.png");
     background-size: 145%;
     background-position-x: 48%;
     background-position-y: 35%;
   }
   .calculator {
-    background: url('https://i.imgur.com/FEqBsOc.png');
+    background: url("https://i.imgur.com/FEqBsOc.png");
     background-size: 125%;
     background-position-x: 42%;
     background-position-y: 5%;
   }
   .movies {
-    background: url('https://i.imgur.com/NaFydgI.png');
+    background: url("https://i.imgur.com/NaFydgI.png");
     background-size: 110%;
     background-position-x: 50%;
     background-position-y: 50%;
   }
   .zelda {
-    background: url('https://i.imgur.com/iLHhiN4.png');
+    background: url("https://i.imgur.com/iLHhiN4.png");
     background-size: 155%;
     background-position-x: 45%;
     background-position-y: 55%;
@@ -1607,7 +1607,7 @@ body {
   .bopit,
   .hikeme,
   .barber {
-    font-family: 'Open Sans', cursive;
+    font-family: "Open Sans", cursive;
     background-color: white;
     color: black;
     width: 300px;
@@ -1617,7 +1617,7 @@ body {
   }
 
   .description {
-    font-family: 'Open Sans', cursive;
+    font-family: "Open Sans", cursive;
     padding-top: 20px;
     font-size: 0.45em;
     background-color: white;
@@ -1704,7 +1704,7 @@ body {
   }
 
   .projects-container {
-    font-family: 'Lexend', sans-serif;
+    font-family: "Lexend", sans-serif;
     font-size: 1.75vw;
     display: grid;
     justify-items: center;
@@ -1960,7 +1960,7 @@ body {
     padding-bottom: 9px;
     border-radius: 50%;
     color: black;
-    font-family: 'Nanum Myeongjo', serif;
+    font-family: "Nanum Myeongjo", serif;
   }
 
   .one {
@@ -2066,6 +2066,14 @@ body {
 
   .top-half-bio {
     animation: fade-in-up 2.1s;
+  }
+
+  .hover-underline {
+    text-decoration: underline;
+  }
+
+  .hover-underline:hover {
+    text-decoration: none;
   }
 
   .bottom-container {
@@ -2178,7 +2186,7 @@ body {
   }
 
   .toggle-switch-div {
-    font-family: 'Quicksand', sans-serif;
+    font-family: "Quicksand", sans-serif;
     display: flex;
     width: fit-content;
     position: absolute;
@@ -2212,7 +2220,7 @@ body {
 
   .slider:before {
     position: absolute;
-    content: '';
+    content: "";
     bottom: 14px;
     background-color: black;
     transition: 0.5s;

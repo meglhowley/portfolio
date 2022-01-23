@@ -1,34 +1,34 @@
-import React, { useReducer, useEffect } from 'react'
-import HomeTransition2 from './HomeTransition2'
-import { Modal, ProgressStep } from 'react-rainbow-components'
+import React, { useReducer, useEffect } from "react";
+import HomeTransition2 from "./HomeTransition2";
+import { Modal, ProgressStep } from "react-rainbow-components";
 
 const iState = {
   backClicked: false,
   modalOpen: false,
-  techClicked: false
-}
+  techClicked: false,
+};
 
 const reducer = (state, action) => {
   switch (action.type) {
-    case 'toggleHome':
-      return { backClicked: !state.backClicked }
-    case 'toggleModalOpen':
-      return { modalOpen: !state.modalOpen }
-    case 'toggleTechClicked':
-      return { techClicked: !state.techClicked }
+    case "toggleHome":
+      return { backClicked: !state.backClicked };
+    case "toggleModalOpen":
+      return { modalOpen: !state.modalOpen };
+    case "toggleTechClicked":
+      return { techClicked: !state.techClicked };
     default:
-      return state
+      return state;
   }
-}
+};
 
 function Projects(props) {
-  const [state, dispatch] = useReducer(reducer, iState)
+  const [state, dispatch] = useReducer(reducer, iState);
 
   const handleClickedBack = () => {
-    dispatch({ type: 'toggleHome' })
-  }
+    dispatch({ type: "toggleHome" });
+  };
 
-  const width = window.innerWidth
+  const width = window.innerWidth;
 
   if (!state.backClicked) {
     return (
@@ -37,13 +37,13 @@ function Projects(props) {
           className="left-side expand-about-left"
           style={{
             backgroundColor: !props.darkMode
-              ? 'rgba(241, 255, 86, 255)'
-              : 'rgba(0, 0, 0, 0.822)',
-            color: !props.darkMode ? 'black' : 'rgb(202, 202, 202)'
+              ? "rgba(241, 255, 86, 255)"
+              : "rgba(0, 0, 0, 0.822)",
+            color: !props.darkMode ? "black" : "rgb(202, 202, 202)",
           }}
         >
           <div className="side-nav">
-            {' '}
+            {" "}
             <div className="social-container">
               <a
                 target="_blank"
@@ -52,7 +52,7 @@ function Projects(props) {
                 <img
                   className="linkedin"
                   src="https://i.imgur.com/9MmHVbl.png"
-                />{' '}
+                />{" "}
                 <div className="social-text">LINKEDIN</div>
               </a>
             </div>
@@ -70,6 +70,7 @@ function Projects(props) {
                 <img
                   className="download "
                   src="https://i.imgur.com/D7U1DzF.png"
+                  alt="download"
                 />
                 <div className="social-text">RESUME</div>
               </a>
@@ -84,22 +85,30 @@ function Projects(props) {
           <div className="bio-container animate__animated">
             <div className="top-half-bio">
               <div className="biography">
-                <h2>Hey 👋&nbsp;I'm Meg.</h2>
+                <h2>Hi, 👋&nbsp;I'm Meg.</h2>
                 <p>
-                  I am a full stack engineer based out of New England. I love to
-                  create applications that emphasize clean functionality and
-                  mindful design. <br />
+                  Software engineer specializing in building engaging,
+                  accessible digital experiences. Currently working on high
+                  impact projects for non-profits at
+                  <a
+                    href="https://www.portlandwebworks.com/"
+                    className="hover-underline"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Portland Webworks.
+                  </a>
                 </p>
               </div>
               {!state.techClicked ? (
                 <div className="skills-sect1">
                   <div
                     onClick={() => {
-                      dispatch({ type: 'toggleTechClicked' })
+                      dispatch({ type: "toggleTechClicked" });
                     }}
                   >
                     <img
-                      style={{ width: '3vh', marginBottom: '-8px' }}
+                      style={{ width: "3vh", marginBottom: "-8px" }}
                       src="https://image.flaticon.com/icons/png/512/1053/1053367.png"
                     />
                     &nbsp;TECH | SKILLS
@@ -109,7 +118,7 @@ function Projects(props) {
                 <div>
                   <div
                     onClick={() => {
-                      dispatch({ type: 'toggleTechClicked' })
+                      dispatch({ type: "toggleTechClicked" });
                     }}
                     className="close-tech"
                   >
@@ -118,7 +127,7 @@ function Projects(props) {
                   <div className="skills-sect">
                     <div class="container animate__animated animate__tada">
                       <i
-                        style={{ fontSize: width >= 1020 ? '6vh' : '3.5vh' }}
+                        style={{ fontSize: width >= 1020 ? "6vh" : "3.5vh" }}
                         class="devicon-html5-plain-wordmark"
                       ></i>
                       <div class="overlay">
@@ -127,7 +136,7 @@ function Projects(props) {
                     </div>
                     <div class="container animate__animated animate__tada">
                       <i
-                        style={{ fontSize: width >= 1020 ? '6vh' : '3.5vh' }}
+                        style={{ fontSize: width >= 1020 ? "6vh" : "3.5vh" }}
                         class="devicon-react-original-wordmark"
                       ></i>
                       <div class="overlay">
@@ -136,7 +145,7 @@ function Projects(props) {
                     </div>
                     <div class="container animate__animated animate__tada">
                       <i
-                        style={{ fontSize: width >= 1020 ? '6vh' : '3.5vh' }}
+                        style={{ fontSize: width >= 1020 ? "6vh" : "3.5vh" }}
                         class="devicon-javascript-plain"
                       ></i>
                       <div class="overlay">
@@ -145,7 +154,7 @@ function Projects(props) {
                     </div>
                     <div class="container animate__animated animate__tada">
                       <i
-                        style={{ fontSize: width >= 1020 ? '6vh' : '3.5vh' }}
+                        style={{ fontSize: width >= 1020 ? "6vh" : "3.5vh" }}
                         class="devicon-css3-plain-wordmark"
                       ></i>
                       <div class="overlay">
@@ -154,7 +163,7 @@ function Projects(props) {
                     </div>
                     <div class="container animate__animated animate__tada">
                       <i
-                        style={{ fontSize: width >= 1020 ? '6vh' : '3.5vh' }}
+                        style={{ fontSize: width >= 1020 ? "6vh" : "3.5vh" }}
                         class="devicon-redux-original"
                       ></i>
                       <div class="overlay">
@@ -163,7 +172,7 @@ function Projects(props) {
                     </div>
                     <div class="container animate__animated animate__tada">
                       <i
-                        style={{ fontSize: width >= 1020 ? '6vh' : '3.5vh' }}
+                        style={{ fontSize: width >= 1020 ? "6vh" : "3.5vh" }}
                         class="devicon-npm-original-wordmark"
                       ></i>
                       <div class="overlay">
@@ -172,7 +181,7 @@ function Projects(props) {
                     </div>
                     <div class="container animate__animated animate__tada">
                       <i
-                        style={{ fontSize: width >= 1020 ? '6vh' : '3.5vh' }}
+                        style={{ fontSize: width >= 1020 ? "6vh" : "3.5vh" }}
                         class="devicon-nodejs-plain-wordmark"
                       ></i>
                       <div class="overlay">
@@ -181,7 +190,7 @@ function Projects(props) {
                     </div>
                     <div class="container animate__animated animate__tada">
                       <i
-                        style={{ fontSize: width >= 1020 ? '6vh' : '3.5vh' }}
+                        style={{ fontSize: width >= 1020 ? "6vh" : "3.5vh" }}
                         class="devicon-python-plain-wordmark"
                       ></i>
                       <div class="overlay">
@@ -190,7 +199,7 @@ function Projects(props) {
                     </div>
                     <div class="container animate__animated animate__tada">
                       <i
-                        style={{ fontSize: width >= 1020 ? '6vh' : '3.5vh' }}
+                        style={{ fontSize: width >= 1020 ? "6vh" : "3.5vh" }}
                         class="devicon-express-original"
                       ></i>
                       <div class="overlay">
@@ -199,7 +208,7 @@ function Projects(props) {
                     </div>
                     <div class="container animate__animated animate__tada">
                       <i
-                        style={{ fontSize: width >= 1020 ? '6vh' : '3.5vh' }}
+                        style={{ fontSize: width >= 1020 ? "6vh" : "3.5vh" }}
                         class="devicon-mongodb-plain-wordmark"
                       ></i>
                       <div class="overlay">
@@ -211,7 +220,7 @@ function Projects(props) {
                     </div>
                     <div class="container animate__animated animate__tada">
                       <i
-                        style={{ fontSize: width >= 1020 ? '6vh' : '3.5vh' }}
+                        style={{ fontSize: width >= 1020 ? "6vh" : "3.5vh" }}
                         class="devicon-postgresql-plain-wordmark"
                       ></i>
                       <div class="overlay">
@@ -224,7 +233,7 @@ function Projects(props) {
                     </div>
                     <div class="container animate__animated animate__tada">
                       <i
-                        style={{ fontSize: width >= 1020 ? '6vh' : '3.5vh' }}
+                        style={{ fontSize: width >= 1020 ? "6vh" : "3.5vh" }}
                         class="devicon-sequelize-plain"
                       ></i>
                       <div class="overlay">
@@ -233,7 +242,7 @@ function Projects(props) {
                     </div>
                     <div class="container animate__animated animate__tada">
                       <i
-                        style={{ fontSize: width >= 1020 ? '6vh' : '3.5vh' }}
+                        style={{ fontSize: width >= 1020 ? "6vh" : "3.5vh" }}
                         class="devicon-flask-original-wordmark colored"
                       ></i>
                       <div class="overlay">
@@ -242,7 +251,7 @@ function Projects(props) {
                     </div>
                     <div class="container animate__animated animate__tada">
                       <i
-                        style={{ fontSize: width >= 1020 ? '6vh' : '3.5vh' }}
+                        style={{ fontSize: width >= 1020 ? "6vh" : "3.5vh" }}
                         class="devicon-sqlalchemy-original-wordmark colored"
                       ></i>
                       <div class="overlay">
@@ -255,7 +264,7 @@ function Projects(props) {
                     </div>
                     <div class="container animate__animated animate__tada">
                       <i
-                        style={{ fontSize: width >= 1020 ? '6vh' : '3.5vh' }}
+                        style={{ fontSize: width >= 1020 ? "6vh" : "3.5vh" }}
                         class="devicon-vscode-plain-wordmark"
                       ></i>
                       <div class="overlay">
@@ -264,7 +273,7 @@ function Projects(props) {
                     </div>
                     <div class="container animate__animated animate__tada">
                       <i
-                        style={{ fontSize: width >= 1020 ? '6vh' : '3.5vh' }}
+                        style={{ fontSize: width >= 1020 ? "6vh" : "3.5vh" }}
                         class="devicon-git-plain-wordmark"
                       ></i>
                       <div class="overlay">
@@ -273,7 +282,7 @@ function Projects(props) {
                     </div>
                     <div class="container animate__animated animate__tada">
                       <i
-                        style={{ fontSize: width >= 1020 ? '6vh' : '3.5vh' }}
+                        style={{ fontSize: width >= 1020 ? "6vh" : "3.5vh" }}
                         class="devicon-github-original-wordmark"
                       ></i>
                       <div class="overlay">
@@ -282,7 +291,7 @@ function Projects(props) {
                     </div>
                     <div class="container animate__animated animate__tada">
                       <i
-                        style={{ fontSize: width >= 1020 ? '6vh' : '3.5vh' }}
+                        style={{ fontSize: width >= 1020 ? "6vh" : "3.5vh" }}
                         class="devicon-heroku-line-wordmark"
                       ></i>
                       <div class="overlay">
@@ -291,7 +300,7 @@ function Projects(props) {
                     </div>
                     <div class="container animate__animated animate__tada">
                       <img
-                        style={{ width: width >= 1020 ? '6vh' : '3.5vh' }}
+                        style={{ width: width >= 1020 ? "6vh" : "3.5vh" }}
                         src="https://i.imgur.com/Q9pqRVE.png"
                       />
                       <div class="overlay">
@@ -300,7 +309,7 @@ function Projects(props) {
                     </div>
                     <div class="container animate__animated animate__tada">
                       <i
-                        style={{ fontSize: width >= 1020 ? '6vh' : '3.3vh' }}
+                        style={{ fontSize: width >= 1020 ? "6vh" : "3.3vh" }}
                         class="devicon-trello-plain"
                       ></i>
                       <div class="overlay">
@@ -317,8 +326,8 @@ function Projects(props) {
                   <img
                     src={
                       !props.darkMode
-                        ? 'https://image.flaticon.com/icons/png/512/4185/4185176.png'
-                        : 'https://i.imgur.com/fdUAOXx.png'
+                        ? "https://image.flaticon.com/icons/png/512/4185/4185176.png"
+                        : "https://i.imgur.com/fdUAOXx.png"
                     }
                   />
                 </div>
@@ -328,7 +337,7 @@ function Projects(props) {
                     I have a proven track-record of collaboration and
                     relationship-building. When describing my strengths, my
                     colleagues write "Everything - Megan is easily the best
-                    teammate I've worked with this cohort. "
+                    teammate I've worked with. "
                   </p>
                 </div>
               </div>
@@ -337,18 +346,18 @@ function Projects(props) {
                   <img
                     src={
                       !props.darkMode
-                        ? 'https://i.imgur.com/O0Pnt7a.png'
-                        : 'https://i.imgur.com/krZk1De.png'
+                        ? "https://i.imgur.com/O0Pnt7a.png"
+                        : "https://i.imgur.com/krZk1De.png"
                     }
                   />
                 </div>
                 <div>
                   <h2>PROBLEM-SOLVER | CREATOR</h2>
                   <p>
-                    Voted most creative in my recent General Assembly program, I
-                    am always pushing the limits of what is known. Programming
-                    is governed by both art and science, allowing me to lean
-                    into my strengths.
+                    Voted most creative in General Assembly's Software Engineer
+                    Immersive, I am always pushing the limits of what is known.
+                    Programming is governed by both art and science, allowing me
+                    to lean into my strengths.
                   </p>
                 </div>
               </div>
@@ -357,8 +366,8 @@ function Projects(props) {
                   <img
                     src={
                       !props.darkMode
-                        ? 'https://image.flaticon.com/icons/png/512/115/115801.png'
-                        : 'https://i.imgur.com/3JONxUa.png'
+                        ? "https://image.flaticon.com/icons/png/512/115/115801.png"
+                        : "https://i.imgur.com/3JONxUa.png"
                     }
                   />
                 </div>
@@ -377,8 +386,8 @@ function Projects(props) {
                   <img
                     src={
                       !props.darkMode
-                        ? 'https://image.flaticon.com/icons/png/512/123/123862.png'
-                        : 'https://i.imgur.com/yxeZvDk.png'
+                        ? "https://image.flaticon.com/icons/png/512/123/123862.png"
+                        : "https://i.imgur.com/yxeZvDk.png"
                     }
                   />
                 </div>
@@ -386,9 +395,8 @@ function Projects(props) {
                   <h2>AVID LEARNER | COMMITTED TO EXCELLENCE</h2>
                   <p>
                     Those who know me well would tell you my level of drive and
-                    ambition is unparalled. During my final GA review, my
-                    esteemed instructors informed me I was among the most
-                    talented budding developers they have had in class.
+                    ambition is unparalled. I belive there is no age limit on
+                    learning and inspire others to believe the same.
                   </p>
                 </div>
               </div>
@@ -401,7 +409,7 @@ function Projects(props) {
         <div>
           <Modal
             isOpen={state.modalOpen}
-            onRequestClose={() => dispatch({ type: 'toggleModalOpen' })}
+            onRequestClose={() => dispatch({ type: "toggleModalOpen" })}
           >
             <div className="contact-div">
               <h3>Send A Message Here</h3>
@@ -415,7 +423,7 @@ function Projects(props) {
                 <button type="submit">SEND</button>
               </form>
               <h4>
-                Or you can email me direct at:{' '}
+                Or you can email me direct at:{" "}
                 <a href="mailto:meglhowley@gmail.com">meglhowley@gmail.com</a>
               </h4>
             </div>
@@ -424,13 +432,13 @@ function Projects(props) {
         <div
           className="right-side expand-about-right"
           style={{
-            backgroundColor: !props.darkMode ? 'white' : 'rgb(46, 90, 104)'
+            backgroundColor: !props.darkMode ? "white" : "rgb(46, 90, 104)",
           }}
         ></div>
       </div>
-    )
+    );
   } else {
-    return <HomeTransition2 darkMode={props.darkMode} />
+    return <HomeTransition2 darkMode={props.darkMode} />;
   }
 }
-export default Projects
+export default Projects;
