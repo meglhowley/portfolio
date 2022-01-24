@@ -66,7 +66,7 @@ function Projects(props) {
               </a>
             </div>
             <div className="social-container">
-              <a href="NewResume.pdf" download="MeganHowleyResume">
+              <a href="ResumeJan.pdf" download="MeganHowleyResume">
                 <img
                   className="download "
                   src="https://i.imgur.com/D7U1DzF.png"
@@ -77,7 +77,7 @@ function Projects(props) {
             </div>
             <div className="social-container">
               <a href="mailto:meglhowley@gmail.com" subject="HTML link">
-                <img className="email " src="https://i.imgur.com/aExEYeg.png" />
+                <img className="email" src="https://i.imgur.com/aExEYeg.png" />
                 <div className="social-text">EMAIL</div>
               </a>
             </div>

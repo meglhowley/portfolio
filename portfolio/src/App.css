@@ -936,6 +936,14 @@ body {
     flex-direction: column;
   }
 
+  .hover-underline {
+    text-decoration: underline;
+  }
+
+  .hover-underline:hover {
+    text-decoration: none;
+  }
+
   .bottom-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
