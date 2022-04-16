@@ -89,15 +89,17 @@ function Projects(props) {
                 <p>
                   Software engineer specializing in building engaging,
                   accessible digital experiences. Currently working on high
-                  impact projects for non-profits at
+                  impact public sector web applications at&nbsp;
                   <a
                     href="https://www.portlandwebworks.com/"
                     className="hover-underline"
                     target="_blank"
                     rel="noreferrer"
+                    style={{ color: props.darkMode ? "white" : "black" }}
                   >
-                    Portland Webworks.
+                    Portland Webworks
                   </a>
+                  .
                 </p>
               </div>
               {!state.techClicked ? (
@@ -107,10 +109,6 @@ function Projects(props) {
                       dispatch({ type: "toggleTechClicked" });
                     }}
                   >
-                    <img
-                      style={{ width: "3vh", marginBottom: "-8px" }}
-                      src="https://image.flaticon.com/icons/png/512/1053/1053367.png"
-                    />
                     &nbsp;TECH | SKILLS
                   </div>
                 </div>
@@ -326,7 +324,7 @@ function Projects(props) {
                   <img
                     src={
                       !props.darkMode
-                        ? "https://image.flaticon.com/icons/png/512/4185/4185176.png"
+                        ? "https://i.imgur.com/y2Mqmd5.png"
                         : "https://i.imgur.com/fdUAOXx.png"
                     }
                   />
@@ -335,9 +333,8 @@ function Projects(props) {
                   <h2>TEAM FIRST | EGOS LAST</h2>
                   <p>
                     I have a proven track-record of collaboration and
-                    relationship-building. When describing my strengths, my
-                    colleagues write "Everything - Megan is easily the best
-                    teammate I've worked with. "
+                    relationship-building. I believe that true innovation can
+                    only occur within spaces of safe and open communication.
                   </p>
                 </div>
               </div>
@@ -354,10 +351,9 @@ function Projects(props) {
                 <div>
                   <h2>PROBLEM-SOLVER | CREATOR</h2>
                   <p>
-                    Voted most creative in General Assembly's Software Engineer
-                    Immersive, I am always pushing the limits of what is known.
-                    Programming is governed by both art and science, allowing me
-                    to lean into my strengths.
+                    I like to push the limits of what is known within
+                    traditional digital experiences. Programming is governed by
+                    both art and science, allowing me to lean into my strengths.
                   </p>
                 </div>
               </div>
@@ -366,7 +362,7 @@ function Projects(props) {
                   <img
                     src={
                       !props.darkMode
-                        ? "https://image.flaticon.com/icons/png/512/115/115801.png"
+                        ? "https://i.imgur.com/vgiXnIQ.png"
                         : "https://i.imgur.com/3JONxUa.png"
                     }
                   />
@@ -374,10 +370,10 @@ function Projects(props) {
                 <div>
                   <h2>CLIENT-FOCUSED | HUMAN-DRIVEN</h2>
                   <p>
-                    I have years of experience guiding both retail clients
-                    through financial planning software, and large institutions
-                    through brokerage systems. I know what trips clients up; so
-                    I always prioritize a seamless user experience.
+                    I have years of experience guiding individual clients
+                    through planning software, and large institutions through
+                    brokerage systems. I know what trips clients up, so I always
+                    prioritize a seamless user experience.
                   </p>
                 </div>
               </div>
@@ -386,7 +382,7 @@ function Projects(props) {
                   <img
                     src={
                       !props.darkMode
-                        ? "https://image.flaticon.com/icons/png/512/123/123862.png"
+                        ? "https://i.imgur.com/u2aumjX.png"
                         : "https://i.imgur.com/yxeZvDk.png"
                     }
                   />
@@ -396,7 +392,7 @@ function Projects(props) {
                   <p>
                     Those who know me well would tell you my level of drive and
                     ambition is unparalled. I belive there is no age limit on
-                    learning and inspire others to believe the same.
+                    learning, which is what drives me in the tech industry.
                   </p>
                 </div>
               </div>

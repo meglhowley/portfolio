@@ -938,6 +938,8 @@ body {
 
   .hover-underline {
     text-decoration: underline;
+    margin: 0px;
+    padding: 0px;
   }
 
   .hover-underline:hover {
@@ -1830,7 +1832,7 @@ body {
   }
 
   .biography {
-    width: 35vw;
+    width: 33vw;
     margin-left: 6%;
     text-align: center;
     font-family: Lexend;
@@ -2078,6 +2080,8 @@ body {
 
   .hover-underline {
     text-decoration: underline;
+    margin: 0px;
+    padding: 0px;
   }
 
   .hover-underline:hover {
